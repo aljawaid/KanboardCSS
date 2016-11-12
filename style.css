@@ -54,18 +54,11 @@ a {
 }
 
 .board-swimlane-columns-0 > .board-column-header {
-    font-size: 13px;
+    /*font-size: 13px;*/
     border-bottom: 0px solid #c7c7c7;
 }
 
-.board-column-header {
-	border-top: 0px solid #CCC;
-    border-left: 0px solid #CCC;
-    border-rigt: 0px solid #CCC;
-    border-bottom: 0px solid #CCC;
-    background-color: white;
-    border-top: 0px solid #fff;
-}
+
 
 tr.board-swimlane > td {
 	background-color: #F5F5F5;
@@ -118,7 +111,7 @@ th.board-swimlane-header {
     border-right: 0px solid #CCC;
     border-bottom: 0px solid #CCC;
 }
- 
+
 .board-column-expanded .board-add-icon a {
 	line-height: 50%;
 }
@@ -143,7 +136,7 @@ header {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px!important;
-    border-bottom: none; 
+    border-bottom: none;
 }
 
 header h1 {
@@ -326,7 +319,7 @@ background-color: white;
 }
 
 div.color-lime {
-border-left-width: 15px;	
+border-left-width: 15px;
 background-color: white;
 }
 
@@ -354,7 +347,7 @@ div.task-board-recent {
 }
 
 .board-task-list>div {
-    font-size: 11px!important;
+    font-size: 15px;
     border-width: 1px!important;
     border-left-width: 4px!important;
     background-color: white!important;
@@ -378,15 +371,15 @@ div.task-board-recent {
 }
 
 .task-board-collapsed {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .task-board {
-    font-size: 11px!important;
+    font-size: 15px;
 }
 
 .task-board-title {
-    font-size: 11px!important;
+    font-size: 14px;
     display: inline-block;
 }
 
@@ -397,7 +390,7 @@ div.task-board-recent {
 		max-width: none;
 		min-width: inherit;
 	}
-	
+
 	input.form-input-large {
 		width: 90%;
 	}
@@ -410,13 +403,14 @@ div.task-board-recent {
     width: initial;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
-    background: #fafafa;
+    /*background: #c4c4c4;*/
+    background: rgba(91, 141, 220, 0.95);
     border: 1px solid #e5e5e5;
     border-radius: 2px;
     position: relative;
     margin: 0;
     padding: 12px;
-    font-size: 1em;
+    font-size: 16px;
     border-bottom: 1px solid #e5e5e5;
 }
 
