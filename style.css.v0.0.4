@@ -60,7 +60,32 @@ a {
 
 
 
+tr.board-swimlane > td {
+	background-color: #F5F5F5;
+	border-radius: 13px;
+    /* Gitlab */
+    -webkit-flex: 1;
+    flex: 1;
+    height: 400px;
+    margin-bottom: 0;
+    padding: 5px;
+    /*overflow-y: scroll;*/
+    overflow-x: hidden;
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 0px 0px 10px 10px;
+    /* Gitlab end */
 
+}
+
+th.board-swimlane-header {
+	background-color: white;
+	border-bottom: 0px solid #CCC;
+	border-top: 0px solid #CCC;
+	border-left: 0px solid #CCC;
+	font-size: 14px;
+	line-height: 22px;
+}
 
 
 #board-container table {
@@ -321,7 +346,19 @@ div.task-board-recent {
     border-bottom: none;
 }
 
-
+.board-task-list>div {
+    font-size: 15px;
+    border-width: 1px!important;
+    border-left-width: 4px!important;
+    background-color: white!important;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(186,186,186,0.5);
+    border-left-width: 4px!important;
+    border-right: none;
+    border-top: 1px solid #ececec!important;
+    border-bottom: none;
+}
 
 .filter-box input[type=text] {
     max-width: 300px;
@@ -361,12 +398,13 @@ div.task-board-recent {
 
 
 /* GITLAB LOOKALIKE */
+
 .board-column-header {
     width: initial;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     /*background: #c4c4c4;*/
-    background: #fafafa; /*rgba(91, 141, 220, 0.95);*/
+    background: rgba(91, 141, 220, 0.95);
     border: 1px solid #e5e5e5;
     border-radius: 2px;
     position: relative;
@@ -376,69 +414,24 @@ div.task-board-recent {
     border-bottom: 1px solid #e5e5e5;
 }
 
+
+.task-board-icons {
+    margin-top: 8px;
+}
+
 .task-board-age {
     display: none;
 }
+
 .task-board-category-container {
     text-align: left;
 }
+
 .task-board-avatars {
     display: none;
 }
+
+
 .task-board-title>a {
     font-family: 'Roboto', sans-serif;
-}
-/* HOLDER OF TASKS */
-tr.board-swimlane > td {
-	background-color: #fafafa;;
-	border-radius: 13px;
-    /* Gitlab */
-    -webkit-flex: 1;
-    flex: 1;
-    height: 400px;
-    margin-bottom: 0;
-    padding: 5px;
-    /*overflow-y: scroll;*/
-    overflow-x: hidden;
-    background: #fafafa;
-    border: 1px solid #e5e5e5;
-    border-radius: 0px 0px 10px 10px;
-    /* Gitlab end */
-
-}
-th.board-swimlane-header {
-	background-color: white;
-	border-bottom: 0px solid #CCC;
-	border-top: 0px solid #CCC;
-	border-left: 0px solid #CCC;
-	font-size: 14px;
-	line-height: 22px;
-}
-/* THE SINGLE TASKS LAYOUT */
-.board-task-list>div {
-    font-size: 13px;
-    border-left-width: 2.5px!important;
-    background-color: white!important;
-    background: #fff;
-    border-radius: 3px;
-    padding-left: 6px;
-    padding-right: 4px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-bottom: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
-    box-shadow:  0 1px 2px rgba(62, 54, 54, 0.55); /*0 1px 2px rgba(186,186,186,0.5);*/
-    border-right: none;
-    border-top: 1px solid #ececec!important;
-    border-bottom: none;
-}
-/* Duedata, subtasks, relations, etc. */
-.task-board-icons {
-    margin-top: 2px;
-}
-/* SIZE OF COLUMN WHEN HIDDEN (MINIMIZED) */
-#board th.board-column-header-collapsed{
-    width: 5px;
-    min-width: 5px;
 }
