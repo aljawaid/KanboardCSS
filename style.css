@@ -1,4 +1,5 @@
 
+
 #tasklist li {
     border-radius: 10px;
     border: 1px solid #DEDEDE;
@@ -29,8 +30,6 @@ a {
     color: black;
 }
 
-
-
 /* ##################
  * BOARD TWEAKING
  * ################## */
@@ -57,11 +56,6 @@ a {
     /*font-size: 13px;*/
     border-bottom: 0px solid #c7c7c7;
 }
-
-
-
-
-
 
 #board-container table {
 	border-collapse: separate;
@@ -321,12 +315,9 @@ div.task-board-recent {
     border-bottom: none;
 }
 
-
-
 .filter-box input[type=text] {
     max-width: 300px;
 }
-
 
 .accordion-section {
 	margin-left: 20px;
@@ -339,11 +330,6 @@ div.task-board-recent {
 
 .task-board {
     font-size: 15px;
-}
-
-.task-board-title {
-    font-size: 14px;
-    display: inline-block;
 }
 
 @media (max-width: 600px) {
@@ -436,6 +422,15 @@ th.board-swimlane-header {
 /* Duedata, subtasks, relations, etc. */
 .task-board-icons {
     margin-top: 2px;
+}
+/* Hidden priority 'P0,P1,P2,P3'. Not relevant when it's P0. Should be combined with JS for dynamic */
+.task-board-priority {
+    display: none;
+}
+/* The task title - go for initial if it should stay on same line */
+.task-board-title {
+    font-size: 14px;
+    display: inline-block;
 }
 /* SIZE OF COLUMN WHEN HIDDEN (MINIMIZED) */
 #board th.board-column-header-collapsed{
