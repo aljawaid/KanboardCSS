@@ -431,6 +431,7 @@ th.board-swimlane-header {
 .task-board-title {
     font-size: 14px;
     display: inline-block;
+    margin-bottom: 5px;
 }
 /* SIZE OF COLUMN WHEN HIDDEN (MINIMIZED) */
 #board th.board-column-header-collapsed{
