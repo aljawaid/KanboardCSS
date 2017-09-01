@@ -1,3 +1,4 @@
+# Not maintained
 Kanboard Plugin for notes
 ==========================
 
