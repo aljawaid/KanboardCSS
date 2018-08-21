@@ -120,6 +120,10 @@ header h1 a {
     padding-left: 10px;
 }
 
+/** FOR KANBOARD V1.2.5 **/
+header .board-selector-container {max-width: 25%}
+.js-select-dropdown-autocomplete-rendered {max-width: 100%}
+
 .page-header {
     padding: 0px 0px 5px 15px;
     background-color: #ececec;
