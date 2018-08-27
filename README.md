@@ -1,37 +1,42 @@
-# Not maintained
-Kanboard Plugin for notes
+Theme Plugin for Kanboard
 ==========================
 
-This style.css adds new CSS to the Kanboard UI.
+This plugin adds a new CSS style theme to the Kanboard user interface.
 
-Style for https://github.com/fguillot/kanboard
+Style for [Kanboard](https://github.com/fguillot/kanboard "Kanboard")
 
-Author
-------
+Main Features
+-------------
 
-- TTJ
-- License MIT
+- Board is tweaked heavily. Look like gitlabs issueboard.
+
+Compatibility
+-------------
+
+ - Requires Kanboard ≥`1.0.44`
 
 Installation
 ------------
 
-- Copy data from style.css
-- Open Kanboard: Settings -> Application Settings
-- Paste in Custom Stylesheet
+- Copy data from `style.css`
+- Open Kanboard: `Settings` -> `Application Settings`
+- Paste in `Custom Stylesheet`
 - Save
 
-or
+_Note: Not fully compatible with MySQL-Kanboard environments due to the field limit_
 
-- git clone to `plugins` folder
-- folder name `KanboardCSS`
+**_or_**
 
-Todo
-----
+- git clone (or ftp upload) to `plugins` folder
+- folder name `KanboardCSS` (must be exact case)
 
-- Add descriptions in style.css
-- Clean up style.css
+Authors & Contributors
+----------------------
 
-Main features
--------------
+- TTJ - Original Developer (https://github.com/ThomasTJdev)
+- Aljawaid - Maintainer (_as of 2018_)
 
-- Board is tweaked heavily. Look like gitlabs issueboard.
+
+License
+-------
+- [This project is available under the MIT license](../blob/master/license.md "MIT License")

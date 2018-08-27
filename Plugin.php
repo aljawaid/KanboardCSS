@@ -7,8 +7,34 @@ class Plugin extends Base
     {
         $this->hook->on('template:layout:css', array('template' => 'plugins/KanboardCSS/style.css'));
     }
+
+    public function getPluginName()
+    {
+        return 'KanboardCSS';
+    }
+
+    public function getPluginDescription()
+    {
+        return t('A polished CSS theme for modern browsers');
+    }
+
+    public function getPluginAuthor()
+    {
+        return 'Aljawaid';
+    }
+
+    public function getPluginVersion()
+    {
+        return '1.0.0';
+    }
+
+    public function getPluginHomepage()
+    {
+        return 'https://github.com/aljawaid/kanboardcss';
+    }
+
+    public function getCompatibleVersion()
+    {
+        return '>=1.0.43';
+    }
 }
-
-
-
-
