@@ -15,6 +15,11 @@ Compatibility
 
  - Requires Kanboard ≥`1.0.44`
 
+Changelog
+---------
+
+ - All notable style changes are listed in the - [Changelog](../master/changelog.md "See changes")
+
 Installation
 ------------
 

@@ -1,3 +1,16 @@
+### CHANGELOG - KanboardCSS
+------
+------
+
+#### 1.0 - AUG18
+
+- Relaunched based on style v0.0.4
+- Restructured all files and folders
+- Added `archive` folder for previous versions
+- FIX: Board search bar was too large for KB v1.2.5
+- Added MIT license file
+- Updated plugin info (for plugin settings)
+
 Version 0.0.5
 -------------
 
