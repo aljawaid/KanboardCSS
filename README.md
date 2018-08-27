@@ -39,4 +39,4 @@ Authors & Contributors
 
 License
 -------
-- [This project is available under the MIT license](../blob/master/license.md "MIT License")
+- [This project is available under the MIT license](../master/license.md "MIT License")
