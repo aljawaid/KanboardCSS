@@ -33,7 +33,7 @@ _Note: Not fully compatible with MySQL-Kanboard environments due to the field li
 Authors & Contributors
 ----------------------
 
-- TTJ - Original Developer (https://github.com/ThomasTJdev)
+- ThomasTJdev - Original Developer (https://github.com/ThomasTJdev)
 - Aljawaid - Maintainer (_as of 2018_)
 
 
