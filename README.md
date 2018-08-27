@@ -18,7 +18,7 @@ Compatibility
 Changelog
 ---------
 
- - All notable style changes are listed in the - [Changelog](../master/changelog.md "See changes")
+ - All notable style changes are listed in the [Changelog](../master/changelog.md "See changes")
 
 Installation
 ------------
@@ -32,7 +32,7 @@ _Note: Not fully compatible with MySQL-Kanboard environments due to the field li
 
 **_or_**
 
-- git clone (or ftp upload) to `plugins` folder
+- git clone (_or ftp upload_) to the `plugins` folder
 - folder name `KanboardCSS` (must be exact case)
 
 Authors & Contributors
@@ -44,4 +44,4 @@ Authors & Contributors
 
 License
 -------
-- [This project is available under the MIT license](../master/LICENSE "MIT License")
+- [This project is distributed under the MIT license](../master/LICENSE "MIT License")
