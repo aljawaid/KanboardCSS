@@ -2,6 +2,12 @@
 ------
 ------
 
+#### 1.5.0 - SEP18 _UNRELEASED_
+
+- Make page text pure black for easier reading
+- Make links in task descriptions stand out
+- Make inline code stand out
+
 #### 1.0.0 - AUG18
 
 - Relaunched based on style `v0.0.4`
