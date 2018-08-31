@@ -461,3 +461,41 @@ code {
     font-family: Tahoma;
     font-size: 85%;
 }
+
+/* FOR BLOCKQUOTE TEXT */
+blockquote{
+  font-size: 1.1em;
+  width:85%;
+  margin:5px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px !important;
+  border-left:8px solid rgb(168, 207, 255) !important;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:rgb(168, 207, 255);
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+/* END BLOCKQUOTE TEXT */

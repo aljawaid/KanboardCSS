@@ -8,6 +8,7 @@
 - Make links in task descriptions stand out
 - Make inline code stand out
 - Add to Kanboard Plugin Directory
+- Add styling to blockquote text
 
 #### 1.0.0 - AUG18
 
