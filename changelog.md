@@ -7,6 +7,7 @@
 - Make page text pure black for easier reading
 - Make links in task descriptions stand out
 - Make inline code stand out
+- Add to Kanboard Plugin Directory
 
 #### 1.0.0 - AUG18
 
