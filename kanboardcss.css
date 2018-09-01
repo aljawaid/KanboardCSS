@@ -499,3 +499,7 @@ blockquote span{
   margin-top:1em;
 }
 /* END BLOCKQUOTE TEXT */
+
+/* HIDE SCROLL BARS IN BOARD MENU LIST */
+#select-dropdown-menu {overflow: auto !important;}
+/* END HIDE SCROLL BARS IN BOARD MENU LIST */
