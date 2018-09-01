@@ -5,7 +5,7 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->hook->on('template:layout:css', array('template' => 'plugins/KanboardCSS/style.css'));
+        $this->hook->on('template:layout:css', array('template' => 'plugins/KanboardCSS/kanboardcss.css'));
     }
 
     public function getPluginName()

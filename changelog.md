@@ -9,6 +9,7 @@
 - Make inline code stand out
 - Add to Kanboard Plugin Directory
 - Add styling to blockquote text
+- Renamed `style.css` to `kanboardcss.css` for easier reference during testing
 
 #### 1.0.0 - AUG18
 
