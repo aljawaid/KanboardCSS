@@ -47,6 +47,10 @@ a {
    /* display: none;*/ // This will hide column names above board/swimlanes
 }
 
+tr[class*='board-swimlane-columns']:not(:first-child) {
+    display: none;  // This will hide all column titles on swimlanes except for the first one
+}
+
 .board-swimlane-columns-0 {
     display: table-row;
 }
@@ -126,13 +130,13 @@ header .board-selector-container {max-width: 25%}
 
 .page-header {
     padding: 0px 0px 5px 15px;
-    background-color: #ececec;
+    background-color: #0e0e0e4d;
     font-size: small;
 }
 
 .sidebar-content>.page-header {
     padding: 5px 0px 5px 15px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .page-header h2 {
@@ -436,6 +440,7 @@ th.board-swimlane-header {
     font-size: 14px;
     display: inline-block;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 /* SIZE OF COLUMN WHEN HIDDEN (MINIMIZED) */
 #board th.board-column-header-collapsed{
@@ -465,7 +470,7 @@ code {
 /* FOR BLOCKQUOTE TEXT */
 blockquote{
   font-size: 1.1em;
-  width:85%;
+  width:auto; // Leave as auto because of board hover tooltip 
   margin:5px auto;
   font-family:Open Sans;
   font-style:italic;
@@ -503,3 +508,24 @@ blockquote span{
 /* HIDE SCROLL BARS IN BOARD MENU LIST */
 #select-dropdown-menu {overflow: auto !important;}
 /* END HIDE SCROLL BARS IN BOARD MENU LIST */
+
+/* INCREASE INFO CIRCLE SIZE IN TOOLTIP */
+.tooltip .fa-info-circle {
+	font-size: 1.3em !important;
+	vertical-align: middle !important;
+}
+/* END INCREASE INFO CIRCLE SIZE IN TOOLTIP */
+
+/* INCREASE PAGE HEADER TEXT SIZE */
+.page-header ul li {font-size: 1.2em;}
+/* END INCREASE PAGE HEADER TEXT SIZE */
+
+/* ALERT */
+.alert {
+	margin-bottom:20px;
+	color:#000;
+	background-color: #f6d009;
+	border: 1px solid #fbeed5;
+	font-style: italic;
+}
+/* END ALERT */
