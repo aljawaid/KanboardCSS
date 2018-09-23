@@ -2,7 +2,7 @@
 ------
 ------
 
-#### 1.5.0 - SEP18 _UNRELEASED_
+#### 1.5.0 - SEP18
 
 - Make page text pure black for easier reading
 - Make links in task descriptions stand out
