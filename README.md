@@ -23,10 +23,14 @@ Changelog
 Installation
 ------------
 
+- Install via Kanboard Plugin Directory
+  - Open Kanboard: `Settings` -> `Plugins` -> `Plugin Directory`
+
+**_or_**
 - Copy data from `style.css`
-- Open Kanboard: `Settings` -> `Application Settings`
-- Paste in `Custom Stylesheet`
-- Save
+  - Open Kanboard: `Settings` -> `Application Settings`
+  - Paste in `Custom Stylesheet`
+  - Save
 
 _Note: Not fully compatible with MySQL-Kanboard environments due to the field limit_
 
