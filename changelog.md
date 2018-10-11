@@ -2,6 +2,11 @@
 ------
 ------
 
+#### 2.0.0 - OCT18 _UNRELEASED_
+
+- Add rounding to field borders
+- Make required field asterisk bigger
+
 #### 1.5.0 - SEP18
 
 - Make page text pure black for easier reading
@@ -9,7 +14,7 @@
 - Make inline code stand out
 - Add to Kanboard Plugin Directory
 - Add styling to blockquote text
-- Renamed `style.css` to `kanboardcss.css` for easier reference during testing
+- Renamed `style.css` to `kanboardcss.css` for easier reference during testing (reinstall of plugin maybe required)
 - Hide scroll bars in board menu list
 - Hide column titles (except the first one) on each swimlane Thanks [Qrizzz] (https://github.com/kanboard/kanboard/issues/3994)
 - Make task titles bold in board view
