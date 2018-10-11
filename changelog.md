@@ -6,6 +6,7 @@
 
 - Add rounding to field borders
 - Make required field asterisk bigger
+- FIX: #5 Label alignment in create new task is off (thank @peterk)
 
 #### 1.5.0 - SEP18
 
