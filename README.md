@@ -11,6 +11,9 @@ Main Features
 
 - Board is tweaked heavily. Look like gitlabs issueboard.
 
+![Current Version](../master/screenshots/v0.0.3/Screenshot-v0.0.3.png "Current Version")
+![Current Version](../master/screenshots/v0.0.3/Screenshot-v0.0.3_2.png "Current Version")
+
 
 Compatibility
 -------------
