@@ -3,7 +3,7 @@ Theme Plugin for Kanboard
 
 This plugin adds a new CSS style theme to the Kanboard user interface.
 
-Style for [Kanboard](https://github.com/fguillot/kanboard "Kanboard")
+Style for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban project management software")
 
 
 Main Features
@@ -17,8 +17,8 @@ Compatibility
 
  - Requires Kanboard ≥`1.0.44`
    - **External Kanboard Plugin Compatibility:**
-     - Fully compatible with Kanboard Plugin [Customizer](https://github.com/creecros/Customizer)
-     - Fully compatible with Kanboard Plugin [Bak2TopBotm](https://github.com/creecros/Bak2topbotm)
+     - Fully compatible with Kanboard Plugin [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard")
+     - Fully compatible with Kanboard Plugin [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard")
 
 
 Changelog
