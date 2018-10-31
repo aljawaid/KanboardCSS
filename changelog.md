@@ -6,7 +6,10 @@
 
 - Add rounding to field borders
 - Make required field asterisk bigger
-- FIX: #5 Label alignment in create new task is off (thank @peterk)
+- FIX: #5 Label alignment in create new task is off (thanks @peterk)
+- Fully compatible with Kanboard Plugin [Customizer] (https://github.com/creecros/Customizer)
+- Fully compatible with Kanboard Plugin [Bak2TopBotm] (https://github.com/creecros/Bak2topbotm)
+- Updated README.md file
 
 #### 1.5.0 - SEP18
 

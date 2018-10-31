@@ -5,20 +5,27 @@ This plugin adds a new CSS style theme to the Kanboard user interface.
 
 Style for [Kanboard](https://github.com/fguillot/kanboard "Kanboard")
 
+
 Main Features
 -------------
 
 - Board is tweaked heavily. Look like gitlabs issueboard.
 
+
 Compatibility
 -------------
 
  - Requires Kanboard ≥`1.0.44`
+   - **External Kanboard Plugin Compatibility:**
+     - Fully compatible with Kanboard Plugin [Customizer] (https://github.com/creecros/Customizer)
+     - Fully compatible with Kanboard Plugin [Bak2TopBotm] (https://github.com/creecros/Bak2topbotm)
+
 
 Changelog
 ---------
 
  - All notable style changes are listed in the [Changelog](../master/changelog.md "See changes")
+
 
 Installation
 ------------
@@ -37,6 +44,7 @@ _Note: Not fully compatible with MySQL-Kanboard environments due to the field li
 **_or_**
 - git clone (_or ftp upload_) and extract the zip into this folder: `.\plugins\KanboardCSS\` (must be exact case)
 
+
 Authors & Contributors
 ----------------------
 
@@ -46,4 +54,4 @@ Authors & Contributors
 
 License
 -------
-- [This project is distributed under the MIT license](../master/LICENSE "MIT License")
+- This project is distributed under the [MIT license](../master/LICENSE "Read MIT License")
