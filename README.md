@@ -9,7 +9,8 @@ Style for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban pro
 Main Features
 -------------
 
-- Board is tweaked heavily. Similar to [Gitlab's](https://gitlab.com "Go to Gitlab") issueboard.
+- The board is tweaked heavily. Similar to [GitLab's](https://gitlab.com "Go to GitLab") issueboard.
+- The whole interface is refreshed for an improved user experience.
 
 ![Current Version](../master/screenshots/v0.0.3/Screenshot-v0.0.3.png "Current Version")
 ![Current Version](../master/screenshots/v0.0.3/Screenshot-v0.0.3_2.png "Current Version")
