@@ -17,8 +17,8 @@ Compatibility
 
  - Requires Kanboard ≥`1.0.44`
    - **External Kanboard Plugin Compatibility:**
-     - Fully compatible with Kanboard Plugin [Customizer] (https://github.com/creecros/Customizer)
-     - Fully compatible with Kanboard Plugin [Bak2TopBotm] (https://github.com/creecros/Bak2topbotm)
+     - Fully compatible with Kanboard Plugin [Customizer](https://github.com/creecros/Customizer)
+     - Fully compatible with Kanboard Plugin [Bak2TopBotm](https://github.com/creecros/Bak2topbotm)
 
 
 Changelog
@@ -55,3 +55,4 @@ Authors & Contributors
 License
 -------
 - This project is distributed under the [MIT license](../master/LICENSE "Read MIT License")
+
