@@ -409,7 +409,7 @@ th.board-swimlane-header {
 	line-height: 22px;
 }
 /* THE SINGLE TASKS LAYOUT */
-.board-task-list>div {
+.board-task-list>div.task-board {
     font-size: 13px;
     border-left-width: 2.5px!important;
     background-color: white!important;
