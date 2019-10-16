@@ -428,7 +428,11 @@ th.board-swimlane-header {
     border-bottom: none;
 }
 /* Duedata, subtasks, relations, etc. */
+.task-board-expanded {
+    overflow: hidden;
+}
 .task-board-icons {
+    float: right;
     margin-top: 2px;
 }
 /* Hidden priority 'P0,P1,P2,P3'. Not relevant when it's P0. Should be combined with JS for dynamic */
@@ -438,7 +442,7 @@ th.board-swimlane-header {
 /* The task title - go for initial if it should stay on same line */
 .task-board-title {
     font-size: 14px;
-    display: inline-block;
+    display: inline;
     margin-bottom: 5px;
     font-weight: bold;
 }
