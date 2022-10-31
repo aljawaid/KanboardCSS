@@ -549,3 +549,9 @@ select {
     padding-top: 5px; // For browser password addon spacing compatibility
 }
 /* END REQUIRED FIELD ASTERISK  */
+
+/* TASK LIMIT */
+.board-task-list-limit {
+    background-color: #DF5353!important;
+}
+/* END TASK LIMIT */
