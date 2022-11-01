@@ -38,7 +38,7 @@ Installation
   - Open Kanboard: `Settings` -> `Plugins` -> `Plugin Directory`
 
 **_or_**
-- Copy data from `style.css`
+- Copy data from `kanboardcss.css`
   - Open Kanboard: `Settings` -> `Application Settings`
   - Paste in `Custom Stylesheet`
   - Save
@@ -46,7 +46,10 @@ Installation
 _Note: Not fully compatible with MySQL-Kanboard environments due to the field limit_
 
 **_or_**
-- git clone (_or ftp upload_) and extract the zip into this folder: `.\plugins\KanboardCSS\` (must be exact case)
+- Copy the file `kanboardcss.css` to folder `./plugins/Customizer/Assets/css/themes` when using the plugin Customizer
+
+**_or_**
+- git clone (_or ftp upload_) and extract the zip into this folder: `./plugins/KanboardCSS/` (must be exact case)
 
 
 Authors & Contributors
