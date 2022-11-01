@@ -46,6 +46,9 @@ Installation
 _Note: Not fully compatible with MySQL-Kanboard environments due to the field limit_
 
 **_or_**
+- Copy the file `kanboardcss.css` to folder `./plugins/Customizer/Assets/css/themes` when using the plugin Customizer
+
+**_or_**
 - git clone (_or ftp upload_) and extract the zip into this folder: `./plugins/KanboardCSS/` (must be exact case)
 
 
