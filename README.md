@@ -38,7 +38,7 @@ Installation
   - Open Kanboard: `Settings` -> `Plugins` -> `Plugin Directory`
 
 **_or_**
-- Copy data from `style.css`
+- Copy data from `kanboardcss.css`
   - Open Kanboard: `Settings` -> `Application Settings`
   - Paste in `Custom Stylesheet`
   - Save
