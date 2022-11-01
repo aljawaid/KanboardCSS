@@ -46,7 +46,7 @@ Installation
 _Note: Not fully compatible with MySQL-Kanboard environments due to the field limit_
 
 **_or_**
-- git clone (_or ftp upload_) and extract the zip into this folder: `.\plugins\KanboardCSS\` (must be exact case)
+- git clone (_or ftp upload_) and extract the zip into this folder: `./plugins/KanboardCSS/` (must be exact case)
 
 
 Authors & Contributors
