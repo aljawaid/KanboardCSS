@@ -2,7 +2,7 @@
 
 #### _Theme Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")_
 
-This plugin adds a new style Kanboard user interface. As a polished theme for modern browsers using gradients and shades of blue and red, this theme refreshes the Kanboard interface to complement the user experience.
+This plugin adds a new style for the Kanboard user interface. As a polished theme for modern browsers using gradients and shades of blue and red, this theme refreshes the Kanboard interface to complement the user experience.
 
 
 Features
