@@ -11,7 +11,8 @@ class Plugin extends Base
     {
         // CSS - Asset Hook
         //  - Keep filename lowercase
-        $this->hook->on('template:layout:css', array('template' => 'plugins/KanboardCSS/kanboardcss.css'));
+        $this->hook->on('template:layout:css', array('template' => 'plugins/KanboardCSS/Assets/css/kanboardcss-custom.css'));
+        $this->hook->on('template:layout:css', array('template' => 'plugins/KanboardCSS/Assets/css/kanboardcss.css'));
     }
 
     public function onStartup()
