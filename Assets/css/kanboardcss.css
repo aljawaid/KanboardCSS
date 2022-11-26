@@ -43,12 +43,14 @@ a {
     border-right: 1px solid #CCC;
 }
 
+/* This will hide column names above board/swimlanes */
 [class^="board-swimlane-columns-"]{
-   /* display: none;*/ // This will hide column names above board/swimlanes
+   /* display: none;*/
 }
 
+/* This will hide all column titles on swimlanes except for the first one */
 tr[class*='board-swimlane-columns']:not(:first-child) {
-    display: none;  // This will hide all column titles on swimlanes except for the first one
+    display: none;
 }
 
 .board-swimlane-columns-0 {
@@ -469,9 +471,10 @@ code {
 }
 
 /* FOR BLOCKQUOTE TEXT */
+/* Leave `width` as auto because of board hover tooltip */
 blockquote{
   font-size: 1.1em;
-  width:auto; // Leave as auto because of board hover tooltip 
+  width:auto;
   margin:5px auto;
   font-family:Open Sans;
   font-style:italic;
@@ -543,11 +546,12 @@ select {
 /* END FIELD BORDERS  */
 
 /* REQUIRED FIELD ASTERISK  */
+/* `padding-top` for browser password addon spacing compatibility */
 .form-required {
     transform: scale(2);
     display: inline-block;
     vertical-align: bottom;
-    padding-top: 5px; // For browser password addon spacing compatibility
+    padding-top: 5px;
 }
 /* END REQUIRED FIELD ASTERISK  */
 
