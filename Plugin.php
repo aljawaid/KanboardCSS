@@ -27,7 +27,7 @@ class Plugin extends Base
 
     public function getPluginDescription()
     {
-        return t('A polished CSS theme for modern browsers. Using shades of blue and red, this theme refreshes the Kanboard interface to complement user performance.');
+        return t('A polished CSS theme for modern browsers. Using gradients and shades of blue and red, this theme refreshes the Kanboard interface to complement the user experience.');
     }
 
     public function getPluginAuthor()
