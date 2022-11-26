@@ -36,6 +36,7 @@ Compatibility
 - _No known issues_
 - Compatible with [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard") plugin
 - Compatible with [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard") plugin
+- Compatible with [Glancer](https://github.com/aljawaid/Glancer "Glancer - A plugin for Kanboard") plugin
 #### Core Files & Templates
 - _No template overrides_
 - _No database changes_
