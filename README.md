@@ -75,7 +75,7 @@ _Note: The `/plugins` folder is case-sensitive._
 - **Install Manually via Settings**
   - Copy content data from `kanboardcss.css`
     - 1. Go to Kanboard: `Settings` &#10562; `Application Settings`
-    - 2. Paste in `Custom Stylesheet`
+    - 2. Paste into the `Custom Stylesheet` section
     - 3. Save
 
 _Note: Not fully compatible with MySQL-Kanboard environments due to the field limit_
@@ -106,7 +106,7 @@ Authors & Contributors
 ----------------------
 
 - [@aljawaid](https://github.com/aljawaid) - Author & Maintainer _(from v1)_
-- [Thomas T. Jarløv](https://github.com/ThomasTJdev) - Original Developer
+- [Thomas T. Jarløv](https://github.com/ThomasTJdev) - Original Author
 - [Craig Crosby](https://github.com/creecros) - Contributor
 - [Tom](https://github.com/schittli) - Contributor
 - [Heiko August](https://github.com/auge8472) - Contributor
