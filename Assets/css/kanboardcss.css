@@ -49,9 +49,9 @@ a {
 }
 
 /* This will hide all column titles on swimlanes except for the first one */
-tr[class*='board-swimlane-columns']:not(:first-child) {
+/*tr[class*='board-swimlane-columns']:not(:first-child) {
     display: none;
-}
+}*/
 
 .board-swimlane-columns-0 {
     display: table-row;
