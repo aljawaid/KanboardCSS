@@ -564,3 +564,14 @@ select {
     background-color: #DF5353!important;
 }
 /* END TASK LIMIT */
+
+
+.action-menu {
+    padding: 4px 0px 4px 6px;
+    background-color: var(--blue-border-gradient-match);
+    border-radius: var(--border-radius);
+}
+
+.action-menu:hover, .action-menu:focus, .views a:hover {
+    color: #eee !important;
+}
