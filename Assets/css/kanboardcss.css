@@ -103,7 +103,6 @@ header {
 	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
 	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
 	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7892c2', endColorstr='#476e9e',GradientType=0);
 	background-color:#7892c2;
     padding: 10px 10px 15px 10px;
     margin-left: 0px;
