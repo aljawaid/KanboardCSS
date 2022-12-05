@@ -8,6 +8,8 @@ This plugin adds a new style for the Kanboard user interface. As a polished them
 Features
 -------------
 
+- Animated web notification icon _(v2.0+)
+- Custom CSS File to override the theme _(v2.0+)
 - The board is tweaked heavily. Similar to [GitLab's](https://gitlab.com "Go to GitLab") issueboard.
 - The whole interface is refreshed for an improved user experience.
 
