@@ -1,17 +1,37 @@
 # Changelog
 
 
-## v2.0 _(UNRELEASED)_
+## v2.0
 
 ### What's Changed
 
 _(most recent changes are listed on top):_
+- NEW: Mobile Improvements
+- NEW: Animated Web Notification Icon
 - Add rounding to field borders
 - Make required field asterisk bigger
-- FIX: #5 Label alignment in create new task is off (thanks @peterk)
+- FIX: #5 Label alignment in create new task is off thanks @peterk
 - Compatibility with [Customizer](https://github.com/creecros/Customizer) plugin
 - Compatibility with [Bak2TopBotm](https://github.com/creecros/Bak2topbotm) plugin
 - Updated README.md file
+- **Updated file structure (reinstall may be required)**
+- Drop IE6 Compatibility
+- Style Board Action Menu Icons
+- Add Custom CSS File for Local Overrides
+- FIX: Location for theme file #13
+- FIX: Float titles inline for more compact board  thanks @gdmac
+- FIX:  Collapsed Column #7 #8- thanks @TimoStahl
+- NEW: Add Translations for Plugin Description
+- Update License Copyright
+- Prepare for design update
+- Fix: added selector a:focus to the definition of a:hover thanks @auge8472
+- Fix: Task limit highlight column thanks @creecros
+- Add Plugin Compatibility
+- FIX: #5 Label alignment in create new task is off
+- NEW: Add rounding to field borders
+- NEW: Make required field asterisk bigger
+- Update install instructions to include Kanboard Plugin Directory
+- Update README.md #4 thanks @schittli
 
 
 ## v1.5
