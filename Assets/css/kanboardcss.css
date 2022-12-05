@@ -684,3 +684,106 @@ select {
 .action-menu:hover, .action-menu:focus, .views a:hover {
     color: #eee !important;
 }
+
+
+@media screen and (max-width: 500px) {
+    .public-header {
+        font-size: 1em;
+    }
+    .public-board-site-title {
+        text-align: left;
+        line-height: 0;
+    }
+    .public-board-site-title span {
+        line-height: initial;
+        font-size: .8em;
+        text-align: center;
+        display: inline-block;
+        width: 100px;
+        vertical-align: middle;
+    }
+    .public-board-title {
+        font-size: 1em;
+        color: #665858;
+        font-weight: bold;
+    }
+    .public-header > .w3-wrapper:nth-child(3) {
+        width: auto;
+        font-size: .8em;
+        margin: 10px auto -4px auto;
+        display: block;
+        text-align: center;
+    }
+    .public-board-desc {
+        font-size: 0.8rem;
+    }
+    .public-header > .w3-wrapper:nth-child(1) {
+        width: 50%;
+    }
+    .public-header > .w3-wrapper:nth-child(2) {
+        display: inline-block;
+        width: auto;
+    }
+    .public-info > .w3-wrapper:nth-child(1) {
+        display: block;
+        width: auto;
+        text-align: center;
+    }
+    .public-info > .w3-wrapper:nth-child(2) {
+        display: block;
+        width: auto;
+        text-align: center;
+        position: unset;
+        margin-bottom: -20px;
+    }
+    .public-refresh, .public-warning {
+        font-size: .7rem;
+    }
+    .task-summary-container {
+        margin: auto .5rem;
+    }
+    .row > .column {
+        width: 100%;
+    }
+    .comment-actions {
+        display: none;
+    }
+    .comment-date, .comment-created {
+        font-size: .7rem;
+        margin-right: 0 !important;
+    }
+    .comment-content {
+        margin-top: 1.5rem;
+        margin-left: .5rem !important;
+    }
+    .avatar img {
+        width: 33px;
+    }
+    .avatar-48 .avatar-letter {
+        line-height: 33px !important;
+        width: 33px !important;
+        font-size: 18px !important;
+    }
+    .comment-title {
+        margin-left: 30px !important;
+    }
+    .public-task-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0.5rem 1rem;
+    }
+    .public-back-to-board-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0.5rem 1rem;
+    }
+    .public-task #task-summary {
+        margin-top: 3em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .public-header {}
+}
