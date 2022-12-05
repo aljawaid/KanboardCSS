@@ -1,6 +1,15 @@
 # Changelog
 
 
+## v2.1
+
+### What's Changed
+
+_(most recent changes are listed on top):_
+- FIX: Wrong installed version when installing v2.0 (still showed as v1.5)
+- General improvements and bux fixes
+
+
 ## v2.0
 
 ### What's Changed
