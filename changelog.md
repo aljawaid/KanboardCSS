@@ -46,7 +46,7 @@ _(most recent changes are listed on top):_
 - Add styling to blockquote text
 - Renamed `style.css` to `kanboardcss.css` for easier reference during testing (reinstall of plugin maybe required)
 - Hide scroll bars in board menu list
-- Hide column titles (except the first one) on each swimlane Thanks [Qrizzz] (https://github.com/kanboard/kanboard/issues/3994)
+- Hide column titles (except the first one) on each swimlane Thanks [@Qrizzz] (https://github.com/kanboard/kanboard/issues/3994)
 - Make task titles bold in board view
 - Make tooltip info circles bit bigger in board view
 - Add clearer and slightly darker page headers
@@ -108,6 +108,4 @@ _(most recent changes are listed on top):_
 * Initial release
 
 
-[**Full Changelog**](../master/changelog.md "See changes")
-
-[**README**](../master/README.md "View README")
+Read the full [**Changelog**](../master/changelog.md "See changes") or view the [**README**](../master/README.md "View README")
