@@ -32,7 +32,7 @@
     --ll-black: #141414;
     --pp-blue-box: rgba(0, 122, 201, 0.6);
     --all-yellow-box: rgba(223, 255, 0, 0.6);
-    --box-shadow: 1px 1px 1px 0px #000;
+    --box-shadow-kbcss: 1px 1px 1px 0px #000;
 }
 
 .pp-blue {color: #007AC9;}
@@ -1961,7 +1961,7 @@ span.notification a:hover {
     border: 2px solid var(--pp-green);
     border-radius: var(--border-radius);
     padding-left: 3px;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-kbcss);
 }
 
 #BadgeClosed {
@@ -1971,7 +1971,7 @@ span.notification a:hover {
     border: 2px solid var(--pp-grey);
     border-radius: var(--border-radius);
     padding-left: 3px;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-kbcss);
 }
 
 #ToggleOffTask {
@@ -1981,7 +1981,7 @@ span.notification a:hover {
     border: 2px solid var(--pp-grey);
     border-radius: var(--border-radius);
     padding-left: 1px;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-kbcss);
 }
 
 #ToggleOffTask .fa {
@@ -2014,7 +2014,7 @@ span.notification a:hover {
     border-radius: 20px;
     margin-bottom: -7px;
     margin-right: 4px;
-    box-shadow: 1px 1px 1px 0px #000;
+    box-shadow: var(--box-shadow-kbcss);
 }
 
 .summary-title strong {
@@ -2176,7 +2176,7 @@ table.metadata-table > tbody > tr > td {
     padding: 0 3px;
     background-color: rgb(255, 251, 0);
     color: #151515;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-kbcss);
 }
 
 .date-block i:nth-child(2) {
@@ -2381,7 +2381,7 @@ tbody tr.disabled {display: none;}
 }
 
 .task-tag, [class*="task-priority-"] {
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow-kbcss);
 }
 
 .task-tags {
