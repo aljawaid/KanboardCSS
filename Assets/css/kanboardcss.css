@@ -53,7 +53,7 @@
 .pp-btn-red {color: white; background-color: #B71234; border-color: #B71234; font-weight: 500; transition: ease 0.7s;}
 .pp-btn-grey {color: white; background-color: #4D4D4D; border-color: #4D4D4D; font-weight: 500; transition: ease 0.7s;}
 
-div, a, details, summary, i, img, table, tr, .btn-uninstall, svg, .sidebar > ul li, figure, button {
+div, a, details, summary, i, img, table, tr, .btn-uninstall, svg, figure, button {
     transition: ease-in-out all .3s;
 }
 
