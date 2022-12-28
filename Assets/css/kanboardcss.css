@@ -2091,6 +2091,7 @@ width: max-content;
 
 span.task-icon-age-total, span.task-icon-age-column {
     border: 1px solid var(--button-blue-border-gradient-match) !important;
+    color: var(--color-primary);
 }
 
 span.task-icon-age-column {
