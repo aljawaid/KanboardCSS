@@ -33,6 +33,7 @@
     --pp-blue-box: rgba(0, 122, 201, 0.6);
     --all-yellow-box: rgba(223, 255, 0, 0.6);
     --box-shadow-kbcss: 1px 1px 1px 0px #000;
+    --transition-kanboard-css: ease-in-out all .3s;
 }
 
 .pp-blue {color: #007AC9;}
@@ -53,8 +54,8 @@
 .pp-btn-red {color: white; background-color: #B71234; border-color: #B71234; font-weight: 500; transition: ease 0.7s;}
 .pp-btn-grey {color: white; background-color: #4D4D4D; border-color: #4D4D4D; font-weight: 500; transition: ease 0.7s;}
 
-div, a, details, summary, i, img, table, tr, .btn-uninstall, svg, figure, button {
-    transition: ease-in-out all .3s;
+a, details, summary, i, img, table, tr, svg, figure, button {
+    transition: var(--transition-kanboard-css);
 }
 
 summary i {
