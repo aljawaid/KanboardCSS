@@ -1,13 +1,29 @@
 # Changelog
 
 
+## v2.2
+
+### What's Changed
+
+_(most recent changes are listed on top):_
+- FIX: Rename Folder - Folder Consistency
+- FIX: Folder Consistency
+- FIX: Folder Consistency
+- Update archive - remove git code
+- Prepare 2023
+- Fix and Add Transition Variable
+- Fix for ColorManager plugin https://github.com/aljawaid/ColorManager/commit/29c3c9e894326288df42dc235b1b6503b1e347b7
+- Fix CSS Jumping Side Menu
+- FIX: Box Shadow Variable
+
+
 ## v2.1
 
 ### What's Changed
 
 _(most recent changes are listed on top):_
 - FIX: Wrong installed version when installing v2.0 (still showed as v1.5)
-- General improvements and bux fixes
+- General bug fixes and improvements
 
 
 ## v2.0
