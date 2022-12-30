@@ -19,8 +19,8 @@ Screenshots
 
 **v0.0.3**
 
-![v0.0.3](../master/screenshots/v0.0.3/Screenshot-v0.0.3.png "v0.0.3")
-![v0.0.3](../master/screenshots/v0.0.3/Screenshot-v0.0.3_2.png "v0.0.3")
+![v0.0.3](../master/Screenshots/v0.0.3/Screenshot-v0.0.3.png "v0.0.3")
+![v0.0.3](../master/Screenshots/v0.0.3/Screenshot-v0.0.3_2.png "v0.0.3")
 
 
 Usage
