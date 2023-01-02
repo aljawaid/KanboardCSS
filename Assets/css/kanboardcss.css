@@ -1080,7 +1080,7 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
 
 .input-addon-field, .input-addon-item {
         border: .16em inset var(--button-blue-border-gradient-match) !important;
-        padding: 3px .75em 3px .75em !important;
+        padding: 3px .5em 3px .5em !important;
         margin-top: -1px !important;
 }
 
