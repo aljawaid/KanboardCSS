@@ -2484,28 +2484,9 @@ span.task-icon-age-column {
     text-align: center;
 }
 
-/* STICKY BOARD */
-
-.project-header {
-    font-size: 13px;
-    margin-bottom: 10px;
-    background-color: #fafafa;
-    border-bottom: 1px solid #ececec;
-    padding: 5px 15px;
-    /*position: sticky;*/
-    /*top: 0;*/
-}
-
 #main > .project-header {
     box-shadow: 0px 2px 10px 0px #000;
 }
-
-/*
-#board tbody {
-    z-index: -1;
-    position: sticky;
-}
-*/
 
 .board-swimlane-header {
     border: 0;
