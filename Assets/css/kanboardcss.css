@@ -13,7 +13,6 @@
     --pp-green: #2EA02E;
     --pp-orange: #FF6500;
     --red-icon-faded: #b71234a1;
-    --border-radius: 3px;
     --button-blue-gradient: linear-gradient(to bottom, #7892c2 80%, #476e9e 100%);
     --button-blue-border-gradient-match: #476E9E;
     --header-title-page-padding: 0px 0px 5px 15px;
@@ -33,6 +32,7 @@
     --pp-blue-box: rgba(0, 122, 201, 0.6);
     --all-yellow-box: rgba(223, 255, 0, 0.6);
     --box-shadow-kbcss: 1px 1px 1px 0px #000;
+    --border-radius-kbcss: 3px;
     --transition-kanboard-css: ease-in-out all .3s;
 }
 
@@ -107,7 +107,7 @@ kbd {
     font-weight: 700;
     color: #fff;
     background-color: #212529;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 
@@ -802,7 +802,7 @@ select {
 .action-menu {
     padding: 4px 0px 4px 6px;
     background-color: var(--blue-border-gradient-match);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
 }
 
 .action-menu:hover, .action-menu:focus, .views a:hover {
@@ -851,13 +851,13 @@ ul#BoardViews > li {
 }
 
 .views li:first-child {
-    border-top-left-radius: var(--border-radius) !important;
-    border-bottom-left-radius: var(--border-radius) !important;
+    border-top-left-radius: var(--border-radius-kbcss) !important;
+    border-bottom-left-radius: var(--border-radius-kbcss) !important;
 }
 
 .views li:last-child {
-    border-top-right-radius: var(--border-radius) !important;
-    border-bottom-right-radius: var(--border-radius) !important;
+    border-top-right-radius: var(--border-radius-kbcss) !important;
+    border-bottom-right-radius: var(--border-radius-kbcss) !important;
 }
 
 .views {
@@ -870,7 +870,7 @@ ul#BoardViews > li {
 
 .board-dropdown {
     padding: 4px 0px 4px 8px;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     background: var(--button-blue-gradient);
     border-color: var(--button-blue-border-gradient-match);
 }
@@ -897,7 +897,7 @@ a:hover {
 
 .markdown table th, .markdown table td {
   border: 1px solid #999;
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-kbcss);
 }
 
 article.markdown > table > tbody > tr > td {
@@ -905,7 +905,7 @@ article.markdown > table > tbody > tr > td {
 }
 
 .markdown table th:nth-of-type(2) {
-  border-top-left-radius: var(--border-radius)!important;
+  border-top-left-radius: var(--border-radius-kbcss)!important;
 }
 
 .markdown table {
@@ -941,7 +941,7 @@ td::-webkit-scrollbar-thumb {
 .sidebar-summary {
     padding: .4rem;
     border: 1px solid var(--pp-border-red-alt-2);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     margin-bottom: 1rem;
     position: relative;
 }
@@ -958,7 +958,7 @@ td::-webkit-scrollbar-thumb {
 .sidebar-actions {
     padding: .4rem;
     border: 1px solid var(--pp-blue);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     margin-bottom: 1rem;
 }
 
@@ -1042,19 +1042,19 @@ section > div > table, .accordion-content > table {
 }
 
 table > tbody > tr > th:first-child, table > thead > tr > th:first-child {
-    border-top-left-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius-kbcss);
 }
 
 table > tbody > tr > th:last-child, table > thead > tr > th:last-child {
-    border-top-right-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius-kbcss);
 }
 
 table > tbody > tr:last-child > td:first-child, table > thead > tr:last-child > td:first-child {
-    border-bottom-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius-kbcss);
 }
 
 table > tbody > tr:last-child > td:last-child, table > thead > tr:last-child > td:last-child {
-    border-bottom-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius-kbcss);
 }
 
 table > tbody > tr > th, table > thead > tr > th, table > tbody > tr:not(:last-child) > td, table > tbody > tr:not(:last-child) > th {
@@ -1085,11 +1085,11 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
 }
 
 .input-addon-field:first-child {
-        border-radius: var(--border-radius) 0 0 var(--border-radius) !important;
+        border-radius: var(--border-radius-kbcss) 0 0 var(--border-radius-kbcss) !important;
 }
 
 .input-addon-item:last-child {
-        border-radius: 0 var(--border-radius) var(--border-radius) 0 !important;
+        border-radius: 0 var(--border-radius-kbcss) var(--border-radius-kbcss) 0 !important;
 }
 
 .input-addon-field:not(:first-child), .input-addon-item:not(:first-child) {
@@ -1113,8 +1113,8 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
     background: var(--button-default-border-color-focus) !important;
     border-bottom-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    border-top-right-radius: var(--border-radius) !important;
-    border-top-left-radius: var(--border-radius) !important;
+    border-top-right-radius: var(--border-radius-kbcss) !important;
+    border-top-left-radius: var(--border-radius-kbcss) !important;
 }
 
 #board-container td {
@@ -1140,7 +1140,7 @@ code {
     color: #bb092d !important;
     margin: auto 3px !important;
     padding: 1px 3px 3px 3px !important;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
 }
 
 #task-view > div > details > summary, #task-summary > details > summary {
@@ -1189,8 +1189,8 @@ code {
     color: var(--pp-grey);
     padding-right: 4px;
     padding-left: 4px;
-    border-top-right-radius: var(--border-radius);
-    border-bottom-right-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius-kbcss);
+    border-bottom-right-radius: var(--border-radius-kbcss);
     display: inline-block;
     padding-top: .05rem;
     padding-bottom: .13rem !important;
@@ -1229,17 +1229,17 @@ code {
 
 #dashboard > .sidebar-content > .overview-table-list > .table-list-row:hover {
     border: 1px solid var(--button-blue-border-gradient-match);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
 }
 
 #dashboard > .sidebar-content > .overview-table-list > .table-list-row {
     border: 1px solid var(--pp-white);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
 }
 
 .select-dropdown-input-container {
     border: .16em inset var(--button-blue-border-gradient-match) !important;
-    border-radius: var(--border-radius) !important;
+    border-radius: var(--border-radius-kbcss) !important;
 }
 
 #select-dropdown-menu {
@@ -1291,12 +1291,12 @@ textarea {
 
 /* FOR FIELD BORDERS  */
 textarea, .alert, input {
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     accent-color: var(--pp-red-alt-2);
 }
 
 select {
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     border-width: 1px;
 }
 /* END FIELD BORDERS  */
@@ -1390,7 +1390,7 @@ select {
 #TaskTagSummary {
     background-color: rgba(255, 255, 255, .9);
     padding: .1em .4rem .3rem .4rem;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     margin-top: 1em;
 }
 
@@ -1476,7 +1476,7 @@ li.summary-title {
 
 article.markdown > ul > li > a {
     padding: 0px 4px 2px 4px;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     line-height: 1.7em;
 }
 
@@ -1506,7 +1506,7 @@ article.markdown {
     border: 2px solid var(--button-blue-border-gradient-match);
     padding: 2px 4px 3px 4px;
     margin-bottom: 5px;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
 }
 
 .task-general-summary ul li span {
@@ -1580,7 +1580,7 @@ header h1 {
 .acc-templates-subsection-block {
     margin: .7em 1.5em .5em 1.5em;
     padding: .5em 1em;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     width: max-content;
     box-shadow: 1px 2px 2px #888888;
     display: inline-block;
@@ -1627,7 +1627,7 @@ header h1 {
     margin: auto .5em;
     padding: .5em;
     cursor: context-menu;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     box-shadow: 1px 2px 2px #888888;
 }
 
@@ -1697,7 +1697,7 @@ summary::marker {color: var(--button-primary-border-color-focus);}
     background-color: #828282;
     padding: .5em 1.5em;
     width: max-content;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     font-family: Tahoma;
     letter-spacing: 1px;
 }
@@ -1705,7 +1705,7 @@ summary::marker {color: var(--button-primary-border-color-focus);}
 .comment-highlight {
     background-color: #828282;
     padding: .1em .3em;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     font-family: Tahoma;
     letter-spacing: 1px;
     width: max-content;
@@ -1772,7 +1772,7 @@ summary::marker {color: var(--button-primary-border-color-focus);}
     margin-left: 1em;
     border: 1px solid var(--pp-border-red-alt-2);
     padding: .3em;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
 }
 
 .board-column-header-task-count {
@@ -1780,7 +1780,7 @@ summary::marker {color: var(--button-primary-border-color-focus);}
     font-weight: bold !important;
     font-size: 90%;
     background-color: var(--pp-red-alt-2);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     padding: 0px 3px 1px 3px;
     border: 1px solid #000;
     margin: 0px 3px 2px 2px;
@@ -1797,7 +1797,7 @@ th.board-swimlane-header {
     font-weight: bold !important;
     font-size: 90%;
     background-color: var(--pp-red-alt-2);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     padding: 0px 3px 1px 3px;
     border: 1px solid #000;
     margin: 0px 3px 2px 0px;
@@ -1832,7 +1832,7 @@ th.board-swimlane-header {
     opacity: 1;
     border: 1px solid var(--pp-orange);
     padding: 2px;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     background-color: var(--pp-orange);
 }
 
@@ -1961,7 +1961,7 @@ span.notification a:hover {
     color: #eee;
     font-weight: bold;
     border: 2px solid var(--pp-green);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     padding-left: 3px;
     box-shadow: var(--box-shadow-kbcss);
 }
@@ -1971,7 +1971,7 @@ span.notification a:hover {
     color: #eee;
     font-weight: bold;
     border: 2px solid var(--pp-grey);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     padding-left: 3px;
     box-shadow: var(--box-shadow-kbcss);
 }
@@ -1981,7 +1981,7 @@ span.notification a:hover {
     color: #eee;
     font-weight: bold;
     border: 2px solid var(--pp-grey);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     padding-left: 1px;
     box-shadow: var(--box-shadow-kbcss);
 }
@@ -2002,7 +2002,7 @@ span.notification a:hover {
     border: 1px solid var(--pp-orange);
     display: initial;
     padding: 2px;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     background-color: var(--pp-white);
     margin: 0px 7px 0px 0px;
     line-height: 40px;
@@ -2043,7 +2043,7 @@ width: max-content;
 .table-list-wrapper {
     padding: 2px 3px 2px 3px;
     border: 1px solid #000;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     text-transform: uppercase;
 }
 
@@ -2120,7 +2120,7 @@ table.metadata-table > tbody > tr > td {
     border-top: 1px solid var(--button-blue-border-gradient-match);
     border-right: 1px solid var(--button-blue-border-gradient-match);
     border-bottom: 1px solid var(--button-blue-border-gradient-match);
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     padding-right: .5rem;
     margin-bottom: 1em;
     position: relative;
@@ -2353,7 +2353,7 @@ tbody tr.disabled {display: none;}
     background: var(--button-blue-border-gradient);
     border: 1px solid var(--button-blue-border-gradient-match);
     display: initial;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     padding-top: 2px !important;
     padding-bottom: 0.122em !important;
     line-height: 40px !important;
@@ -2408,7 +2408,7 @@ span.task-icon-age-column {
 }
 
 .task-summary-container, .sidebar-content > .page-header {
-    border-radius: var(--border-radius) !important;
+    border-radius: var(--border-radius-kbcss) !important;
 }
 
 .task-summary-container {
@@ -2428,12 +2428,12 @@ span.task-icon-age-column {
 }
 
 .file-thumbnails > .file-thumbnail img {
-    border-top-left-radius: var(--border-radius);
-    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius-kbcss);
+    border-top-right-radius: var(--border-radius-kbcss);
 }
 
 .file-thumbnails > .file-thumbnail {
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     border: 1px solid var(--button-blue-border-gradient-match);
 }
 
@@ -2445,7 +2445,7 @@ span.task-icon-age-column {
 
 .project-overview-column {
     border: 2px dashed var(--button-blue-border-gradient-match) !important;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
 }
 
 .project-overview-column small {
@@ -2468,7 +2468,7 @@ span.task-icon-age-column {
     font-weight: 400;
     cursor: pointer;
     display: inline-block;
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-kbcss);
     padding: 2px 8px 4px 5px;
     margin: auto 5px;
     border: 1px solid var(--button-default-border-color);
