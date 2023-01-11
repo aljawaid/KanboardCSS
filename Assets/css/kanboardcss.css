@@ -1440,8 +1440,8 @@ tr.board-swimlane > td {
     border-left-width: 3px !important;
 }
 
-.task-board-category-container {
-    margin-top: 0px !important;
+.task-board-expanded .task-board-category-container {
+    margin-top: 5px;
     display: block;
 }
 
