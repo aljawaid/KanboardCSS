@@ -292,7 +292,6 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 }
 
 .board-swimlane-columns-0 > .board-column-header {
-    /*font-size: 13px;*/
     border-bottom: 0px solid #c7c7c7;
 }
 
@@ -331,23 +330,23 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
  * ############################################################ */
 
  header {
-   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
-   background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-   background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-   background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-   background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-   background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-   background-color:#7892c2;
-   padding: 10px 10px 15px 10px;
-   margin-left: 0px;
-   margin-right: 0px;
-   margin-top: 0px;
-   margin-bottom: 0px!important;
-   border-bottom: none;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+    background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    padding: 10px 10px 15px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px!important;
+    border-bottom: none;
 }
 
 header h1 {
-	font-size: 24px;
+    font-size: 24px;
 	color: white;
     font-weight: 600;
     padding-left: 10px;
@@ -416,7 +415,7 @@ body {
 }
 
 .ui-sortable {
- padding: 0px 2px 0px 2px;
+    padding: 0px 2px 0px 2px;
 }
 
 .sidebar>ul a {
@@ -440,8 +439,7 @@ a:visited {
 }
 
 /* mouse over link */
-a:focus,
-a:hover {
+a:focus, a:hover {
     color: rgb(128, 128, 128);
 }
 
@@ -636,6 +634,7 @@ tr.board-swimlane > td {
     /* Gitlab end */
 
 }
+
 th.board-swimlane-header {
 	background-color: white;
 	border-bottom: 0px solid #CCC;
@@ -644,6 +643,7 @@ th.board-swimlane-header {
 	font-size: 14px;
 	line-height: 22px;
 }
+
 /* THE SINGLE TASKS LAYOUT */
 .board-task-list>div.task-board {
     font-size: 13px;
@@ -663,18 +663,22 @@ th.board-swimlane-header {
     border-top: 1px solid #ececec!important;
     border-bottom: none;
 }
+
 /* Duedata, subtasks, relations, etc. */
 .task-board-expanded {
     overflow: hidden;
 }
+
 .task-board-icons {
     float: right;
     margin-top: 2px;
 }
+
 /* Hidden priority 'P0,P1,P2,P3'. Not relevant when it's P0. Should be combined with JS for dynamic */
 .task-board-priority {
     display: none;
 }
+
 /* The task title - go for initial if it should stay on same line */
 .task-board-title {
     font-size: 14px;
@@ -682,6 +686,7 @@ th.board-swimlane-header {
     margin-bottom: 5px;
     font-weight: bold;
 }
+
 /* SIZE OF COLUMN WHEN HIDDEN (MINIMIZED) */
 #board th.board-column-header-collapsed{
     width: 5px;
@@ -707,42 +712,41 @@ code {
     font-size: 85%;
 }
 
-/* FOR BLOCKQUOTE TEXT */
-/* Leave `width` as auto because of board hover tooltip */
-blockquote{
-  font-size: 1.1em;
-  width:auto;
-  margin:5px auto;
-  font-family:Open Sans;
-  font-style:italic;
-  color: #555555;
-  padding:1.2em 30px 1.2em 75px !important;
-  border-left:8px solid rgb(168, 207, 255) !important;
-  line-height:1.6;
-  position: relative;
-  background:#EDEDED;
+/* FOR BLOCKQUOTE TEXT - Leave `width` as auto because of board hover tooltip */
+blockquote {
+    font-size: 1.1em;
+    width: auto;
+    margin: 5px auto;
+    font-family: Open Sans;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px !important;
+    border-left: 8px solid rgb(168, 207, 255) !important;
+    line-height: 1.6;
+    position: relative;
+    background: #EDEDED;
 }
 
-blockquote::before{
-  font-family:Arial;
-  content: "\201C";
-  color:rgb(168, 207, 255);
-  font-size:4em;
-  position: absolute;
-  left: 10px;
-  top:-10px;
+blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: rgb(168, 207, 255);
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
 }
 
-blockquote::after{
-  content: '';
+blockquote::after {
+    content: '';
 }
 
-blockquote span{
-  display:block;
-  color:#333333;
-  font-style: normal;
-  font-weight: bold;
-  margin-top:1em;
+blockquote span {
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
 }
 /* END BLOCKQUOTE TEXT */
 
@@ -763,8 +767,8 @@ blockquote span{
 
 /* ALERT */
 .alert {
-	margin-bottom:20px;
-	color:#000;
+	margin-bottom: 20px;
+	color: #000;
 	background-color: #f6d009;
 	border: 1px solid #fbeed5;
 	font-style: italic;
@@ -782,8 +786,7 @@ select {
 }
 /* END FIELD BORDERS  */
 
-/* REQUIRED FIELD ASTERISK  */
-/* `padding-top` for browser password addon spacing compatibility */
+/* REQUIRED FIELD ASTERISK - `padding-top` for browser password addon spacing compatibility */
 .form-required {
     transform: scale(2);
     display: inline-block;
@@ -797,7 +800,6 @@ select {
     background-color: #DF5353!important;
 }
 /* END TASK LIMIT */
-
 
 .action-menu {
     padding: 4px 0px 4px 6px;
@@ -896,8 +898,8 @@ a:hover {
 }
 
 .markdown table th, .markdown table td {
-  border: 1px solid #999;
-  border-radius: var(--border-radius-kbcss);
+    border: 1px solid #999;
+    border-radius: var(--border-radius-kbcss);
 }
 
 article.markdown > table > tbody > tr > td {
@@ -905,7 +907,7 @@ article.markdown > table > tbody > tr > td {
 }
 
 .markdown table th:nth-of-type(2) {
-  border-top-left-radius: var(--border-radius-kbcss)!important;
+    border-top-left-radius: var(--border-radius-kbcss)!important;
 }
 
 .markdown table {
@@ -917,23 +919,23 @@ article.markdown > table > tbody > tr > td {
 
 /* Works on Firefox */
 td {
-  scrollbar-width: auto;
-  scrollbar-color: var(--pp-blue) var(--pp-red-alt-2);
+    scrollbar-width: auto;
+    scrollbar-color: var(--pp-blue) var(--pp-red-alt-2);
 }
 
 /* Works on Chrome, Edge, and Safari */
 td::-webkit-scrollbar {
-  width: 12px;
+    width: 12px;
 }
 
 td::-webkit-scrollbar-track {
-  background: var(--pp-red-alt-2);
+    background: var(--pp-red-alt-2);
 }
 
 td::-webkit-scrollbar-thumb {
-  background-color: var(--pp-blue);
-  border-radius: 20px;
-  border: 3px solid var(--pp-red-alt-2);
+    background-color: var(--pp-blue);
+    border-radius: 20px;
+    border: 3px solid var(--pp-red-alt-2);
 }
 
 /* ########################################################################################################## */
@@ -1811,7 +1813,7 @@ th.board-swimlane-header {
 }
 
 .task-board-icons span {
-   opacity: 1 !important;
+    opacity: 1 !important;
 }
 
 .open {
@@ -1987,11 +1989,11 @@ span.notification a:hover {
 }
 
 #ToggleOffTask .fa {
-  padding-right: 0;
+    padding-right: 0;
 }
 
 #ToggleOffTask > a.js-modal-confirm:hover {
-  color: white !important;
+    color: white !important;
 }
 
 #RecurringPending, #RecurringProcessed {
@@ -2346,17 +2348,17 @@ tbody tr.disabled {display: none;}
 }
 
 .public-task-link {
-  text-transform: uppercase;
-  font-size: 0.9em;
-  font-weight: bold;
-  color: var(--color-primary);
-  background: var(--button-blue-border-gradient);
-  border: 1px solid var(--button-blue-border-gradient-match);
-  display: initial;
-  border-radius: var(--border-radius-kbcss);
-  padding-top: 2px !important;
-  padding-bottom: 0.122em !important;
-  line-height: 40px !important;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: var(--color-primary);
+    background: var(--button-blue-border-gradient);
+    border: 1px solid var(--button-blue-border-gradient-match);
+    display: initial;
+    border-radius: var(--border-radius-kbcss);
+    padding-top: 2px !important;
+    padding-bottom: 0.122em !important;
+    line-height: 40px !important;
 }
 
 .public-task-link strong a {
@@ -2518,8 +2520,6 @@ span.task-icon-age-column {
     font-size: 1.8em;
 }
 
-
-
 .task-board-recent {
     box-shadow: 0px 0px 3px 2px #000 !important;
     margin-top: 0.2rem;
@@ -2555,10 +2555,6 @@ span.cell-float-right {float: right;}
     min-width: 120px;
     width: unset;
 }
-
-
-
-
 
 @media screen and (max-width: 500px) {
     .public-header {
