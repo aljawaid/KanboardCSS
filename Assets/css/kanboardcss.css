@@ -609,9 +609,6 @@ div.task-board-recent {
 .task-board-age {
     display: none;
 }
-.task-board-category-container {
-    text-align: left;
-}
 .task-board-avatars {
     display: none;
 }
@@ -1443,6 +1440,7 @@ tr.board-swimlane > td {
 .task-board-expanded .task-board-category-container {
     margin-top: 5px;
     display: block;
+    text-align: left;
 }
 
 #BoardTagSummary > ul > i {
