@@ -609,12 +609,15 @@ div.task-board-recent {
 .task-board-age {
     display: none;
 }
+
 .task-board-avatars {
     display: none;
 }
-.task-board-title>a {
+
+.task-board-title > a {
     font-family: 'Roboto', sans-serif;
 }
+
 /* HOLDER OF TASKS */
 tr.board-swimlane > td {
 	background-color: #fafafa;;
