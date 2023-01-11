@@ -2380,9 +2380,11 @@ tbody tr.disabled {display: none;}
     color: red;
 }
 
+/*
 .task-tag, [class*="task-priority-"] {
     box-shadow: var(--box-shadow-kbcss);
 }
+*/
 
 .task-tags {
     position: relative;
