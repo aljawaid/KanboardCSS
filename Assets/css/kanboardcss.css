@@ -267,9 +267,9 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
  * BOARD TWEAKING
  * ############################################################ */
 
-#board {
-	border-top: 0px solid #CCC;
-	border-right: 0px solid #CCC;
+ #board {
+   border-top: 0px solid #CCC;
+   border-right: 0px solid #CCC;
 }
 
 .board-swimlane > td {
@@ -279,7 +279,7 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 
 /* This will hide column names above board/swimlanes */
 [class^="board-swimlane-columns-"]{
-   /* display: none;*/
+ /* display: none;*/
 }
 
 /* This will hide all column titles on swimlanes except for the first one */
@@ -330,20 +330,20 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
  * USER INTERFACE
  * ############################################################ */
 
-header {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
-	background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	background-color:#7892c2;
-    padding: 10px 10px 15px 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px!important;
-    border-bottom: none;
+ header {
+   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7892c2), color-stop(1, #476e9e));
+   background:-moz-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+   background:-webkit-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+   background:-o-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+   background:-ms-linear-gradient(top, #7892c2 5%, #476e9e 100%);
+   background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+   background-color:#7892c2;
+   padding: 10px 10px 15px 10px;
+   margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px!important;
+   border-bottom: none;
 }
 
 header h1 {
@@ -416,7 +416,7 @@ body {
 }
 
 .ui-sortable {
-   padding: 0px 2px 0px 2px;
+ padding: 0px 2px 0px 2px;
 }
 
 .sidebar>ul a {
@@ -430,23 +430,23 @@ body {
 }
 
 /* unvisited link */
-    a:link {
+a:link {
     color: rgb(0, 0, 0);
 }
 
 /* visited link */
-    a:visited {
+a:visited {
     color: rgb(0, 0, 0);
 }
 
 /* mouse over link */
-    a:focus,
-    a:hover {
+a:focus,
+a:hover {
     color: rgb(128, 128, 128);
 }
 
 /* selected link */
-    a:active {
+a:active {
     color: rgb(128, 128, 128);
 }
 
@@ -467,83 +467,83 @@ a:active {
 }
 
 div.color-yellow {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-blue {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-green {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-purple {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-red {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-orange {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-grey {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-brown{
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-deep_orange {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-dark_grey {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-pink {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-teal {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-cyan {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-lime {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-light_green {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.color-amber {
-border-left-width: 15px;
-background-color: white;
+    border-left-width: 15px;
+    background-color: white;
 }
 
 div.task-board-recent {
@@ -1075,25 +1075,25 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
 }
 
 .input-addon-item {
-        background:  var(--button-blue-gradient);
+    background:  var(--button-blue-gradient);
 }
 
 .input-addon-field, .input-addon-item {
-        border: .16em inset var(--button-blue-border-gradient-match) !important;
-        padding: 3px .5em 3px .5em !important;
-        margin-top: -1px !important;
+    border: .16em inset var(--button-blue-border-gradient-match) !important;
+    padding: 3px .5em 3px .5em !important;
+    margin-top: -1px !important;
 }
 
 .input-addon-field:first-child {
-        border-radius: var(--border-radius-kbcss) 0 0 var(--border-radius-kbcss) !important;
+    border-radius: var(--border-radius-kbcss) 0 0 var(--border-radius-kbcss) !important;
 }
 
 .input-addon-item:last-child {
-        border-radius: 0 var(--border-radius-kbcss) var(--border-radius-kbcss) 0 !important;
+    border-radius: 0 var(--border-radius-kbcss) var(--border-radius-kbcss) 0 !important;
 }
 
 .input-addon-field:not(:first-child), .input-addon-item:not(:first-child) {
-        border-left: 0 !important;
+    border-left: 0 !important;
 }
 
 .subtask-title a:hover {
@@ -1453,7 +1453,7 @@ tr.board-swimlane > td {
 
 #TaskTagSummary > ul > i {
     font-size: 1.3rem;
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .markdown img {
@@ -1600,11 +1600,11 @@ header h1 {
 }
 
 .acc-templates-subsection-ll {
-        background-color: var(--ll-green-box);
+    background-color: var(--ll-green-box);
 }
 
 .acc-templates-subsection-all {
-        background-color: var(--all-yellow-box);
+    background-color: var(--all-yellow-box);
 }
 
 .section-guide-block {
@@ -1811,7 +1811,7 @@ th.board-swimlane-header {
 }
 
 .task-board-icons span {
- opacity: 1 !important;
+   opacity: 1 !important;
 }
 
 .open {
@@ -1949,7 +1949,7 @@ span.notification a:hover {
 
 .summary-title {
     text-transform: uppercase;
-  font-size: 0.9em;
+    font-size: 0.9em;
 }
 
 .badge {
@@ -2026,8 +2026,8 @@ span.notification a:hover {
 
 .markdown .endofmonth {
     border: 3px solid darkred;
-padding: 0.5em 0.5em 1em 0.5em;
-width: max-content;
+    padding: 0.5em 0.5em 1em 0.5em;
+    width: max-content;
 }
 
 .markdown .endofmonth h3 {
@@ -2347,16 +2347,16 @@ tbody tr.disabled {display: none;}
 
 .public-task-link {
   text-transform: uppercase;
-    font-size: 0.9em;
-    font-weight: bold;
-    color: var(--color-primary);
-    background: var(--button-blue-border-gradient);
-    border: 1px solid var(--button-blue-border-gradient-match);
-    display: initial;
-    border-radius: var(--border-radius-kbcss);
-    padding-top: 2px !important;
-    padding-bottom: 0.122em !important;
-    line-height: 40px !important;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: var(--color-primary);
+  background: var(--button-blue-border-gradient);
+  border: 1px solid var(--button-blue-border-gradient-match);
+  display: initial;
+  border-radius: var(--border-radius-kbcss);
+  padding-top: 2px !important;
+  padding-bottom: 0.122em !important;
+  line-height: 40px !important;
 }
 
 .public-task-link strong a {
