@@ -169,6 +169,7 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
     -webkit-transform-origin: 50% 4px;
     -moz-animation: ring 4s .7s ease-in-out infinite;
     -moz-transform-origin: 50% 4px;
+    transform-origin: 50% 4px;
     animation: ring 4s .7s ease-in-out infinite;
     text-shadow: 0px 2px 2px #000;
 }
