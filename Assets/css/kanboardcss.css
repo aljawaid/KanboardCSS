@@ -68,19 +68,19 @@ summary i {
 
 /*** FILE TYPES ***/
 .fa-file-pdf-o {color: #FA0F00;}
-.fa-file-image-o {}
+/*.fa-file-image-o {}*/
 .fa-file-excel-o {color: #007237;}
 .fa-file-word-o {color: #285397;}
 .fa-file-powerpoint-o {color: #B93214;}
 .fa-file-archive-o {color: #B37900;}
-.fa-file-audio-o {}
-.fa-file-video-o {}
+/*.fa-file-audio-o {}*/
+/*.fa-file-video-o {}*/
 .fa-html5 {color: #E14D25;}
-.fa-file-code-o {}
+/*.fa-file-code-o {}*/
 .fa-css3 {color: #1862B6;}
-.fa-picture-o {}
-.fa-file {}
-.fa-file-text-o {}
+/*.fa-picture-o {}*/
+/*.fa-file {}*/
+/*.fa-file-text-o {}*/
 .fa-font {
     border: 1px solid #000;
     border-radius: var(--border-radius-kbcss);
@@ -88,7 +88,7 @@ summary i {
     padding-bottom: 1px;
     width: 18px !important;
 }
-.fa-file-o {}
+/*.fa-file-o {}*/
 
 .fa-cog, .fa-caret-down {
     color: #4D4D4D;
@@ -279,14 +279,10 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 }
 
 /* This will hide column names above board/swimlanes */
-[class^="board-swimlane-columns-"]{
- /* display: none;*/
-}
+/*[class^="board-swimlane-columns-"]{display: none;}*/
 
 /* This will hide all column titles on swimlanes except for the first one */
-/*tr[class*='board-swimlane-columns']:not(:first-child) {
-    display: none;
-}*/
+/*tr[class*='board-swimlane-columns']:not(:first-child) {display: none;}*/
 
 .board-swimlane-columns-0 {
     display: table-row;
@@ -1259,9 +1255,7 @@ code {
     margin-right: 8px;
 }
 
-.js-select-dropdown-autocomplete-rendered {
-    /*width: 289px;*/
-}
+/*.js-select-dropdown-autocomplete-rendered {width: 289px;}*/
 
 
 [title="100%"], [title="100%"]:hover {
@@ -1388,7 +1382,7 @@ select {
     display: none;
 }
 
-#BoardTagSummary {}
+/*#BoardTagSummary {}*/
 
 #TaskTagSummary {
     background-color: rgba(255, 255, 255, .9);
@@ -1469,9 +1463,7 @@ tr.board-swimlane > td {
     border-radius: var(--border-radius-kbcss);
 }
 
-li.summary-title {
-    /*display: inline-flex;*/
-}
+/*li.summary-title {display: inline-flex;}*/
 
 .summary-title span {
     margin-left: 5px;
@@ -1491,7 +1483,7 @@ article.markdown {
     margin: .5em 1em;
 }
 
-.task-general-summary-item {}
+/*.task-general-summary-item {}*/
 
 .task-general-summary-title {
     font-weight: bold;
@@ -1645,7 +1637,7 @@ header h1 {
     margin-right: 0;
 }
 
-.subsection {}
+/*.subsection {}*/
 
 .acc-templates-section-title {
     font-weight: bold;
@@ -2129,13 +2121,13 @@ table.metadata-table > tbody > tr > td {
     position: relative;
 }
 
-.dash-task-list .table-list-details {}
+/*.dash-task-list .table-list-details {}*/
 
 .dash-task-list .table-list-details span {
     margin-left: 10px;
 }
 
-.dash-task-list .table-list-details .task-list-icons {}
+/*.dash-task-list .table-list-details .task-list-icons {}*/
 
 .task-list-avatars .task-avatar-assignee {
     font-weight: normal !important;
@@ -2372,7 +2364,7 @@ tbody tr.disabled {display: none;}
     font-size: 90%;
 }
 
-.public-back-to-board-link {}
+/*.public-back-to-board-link {}*/
 
 .public-board .metamagik-footer-title, .public-board .metamagik-footer-value {
     display: none;
@@ -2655,6 +2647,4 @@ span.cell-float-right {float: right;}
     }
 }
 
-@media screen and (max-width: 768px) {
-    .public-header {}
-}
+/*@media screen and (max-width: 768px) {.public-header {}}*/
