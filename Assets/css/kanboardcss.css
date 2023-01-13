@@ -22,7 +22,6 @@
     --link-hover-red: #AE003D;
     --link-hover-white: #EEEEEE;
     --background-hover: rgba(174, 0, 61, 0.5);
-    --header-page-margin: 5px 15px 10px 15px;
     --zf-green: #008F47;
     --zf-gold: #A2792C;
     --zf-gold-box: rgba(162, 121, 44, 0.6);
@@ -31,6 +30,7 @@
     --ll-black: #141414;
     --pp-blue-box: rgba(0, 122, 201, 0.6);
     --all-yellow-box: rgba(223, 255, 0, 0.6);
+    --header-page-margin-kbcss: 5px 15px 10px 15px;
     --box-shadow-kbcss: 1px 1px 1px 0px #000;
     --border-radius-kbcss: 3px;
     --transition-kanboard-css: ease-in-out all .3s;
@@ -63,7 +63,7 @@ summary i {
 }
 
 #main .page-header, section.page > .page-header, section.page > div.margin-bottom, section.page > div.table-list {
-    margin: var(--header-page-margin);
+    margin: var(--header-page-margin-kbcss);
 }
 
 /*** FILE TYPES ***/
