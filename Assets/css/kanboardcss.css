@@ -58,8 +58,19 @@ summary i {
     width: 40px;
 }
 
+/*
 #main .page-header, section.page > .page-header, section.page > div.margin-bottom, section.page > div.table-list {
     margin: var(--header-page-margin-kbcss);
+}
+*/
+
+section.page .page-header > ul {
+    margin: var(--header-page-margin-kbcss);
+    margin-bottom: 0 !important;
+}
+
+#main > .page-header {
+    margin-bottom: 10px;
 }
 
 /*** FILE TYPES ***/
