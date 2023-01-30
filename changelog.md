@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v2.3
+
+### What's Changed
+
+_(most recent changes are listed on top):_
+- FIX: Remove Duplicate
+- FIX: Page Header Margins
+- FIX: Remove Unused Variables
+- FIX: Rename CSS Variable
+- FIX: Define the standard property `appearance` for compatibility
+- FIX: Empty Rulesets
+- FIX: Define the standard property `transform-origin` for compatibility
+- Cleanup code
+- Cleanup code
+- FIX: Add Missing `border-radius` Variable
+- FIX: Rename `border-radius` Variable
+- Cleanup colour code syntax
+- Cleanup code
+- FIX: Remove Priority Box Shadow
+- FIX: Merge Classes
+- FIX: Margin and class target - fix `margin-top` - remove `!important`
+- FIX: Remove Duplicate Code
+- FIX: Filter Padding- make narrower, save space
+
+
 ## v2.2
 
 ### What's Changed
