@@ -1134,13 +1134,13 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
 }*/
 
 code {
-    background-color: rgba(27, 31, 35, 0.22) !important;
-    font-size: 0.9rem !important;
-    font-family: Monospace !important;
+    background-color: rgba(27, 31, 35, 0.22);
+    font-size: 0.9rem;
+    font-family: Monospace;
     letter-spacing: 0.08rem;
-    color: #bb092d !important;
-    margin: auto 3px !important;
-    padding: 1px 3px 3px 3px !important;
+    color: #bb092d;
+    margin: auto 3px;
+    padding: 1px 3px 3px 3px;
     border-radius: var(--border-radius-kbcss);
 }
 
