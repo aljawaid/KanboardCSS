@@ -2552,6 +2552,12 @@ span.cell-float-right {float: right;}
     width: unset;
 }
 
+::selection {
+    /*background: rgba(113,113,113,0.5);*/
+    background: rgba(183, 18, 52, 0.63);
+    color:#ffffff;
+}
+
 @media screen and (max-width: 500px) {
     .public-header {
         font-size: 1em;
