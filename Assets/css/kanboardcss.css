@@ -1747,29 +1747,12 @@ summary::marker {color: var(--button-primary-border-color-focus);}
     text-decoration: none!important;
 }
 
-.quick-templates-bar {
-    font-size: 85%;
-}
-
-.quick-templates-title {
-    display: inline;
-    margin: 0 .5em 0 0;
-}
-
 .cursor-text {
     cursor: text !important;
 }
 
 .cursor-pointer {
     cursor: pointer !important;
-}
-
-.quick-templates-section {
-    display: inline-block;
-    margin-left: 1em;
-    border: 1px solid var(--pp-border-red-alt-2);
-    padding: .3em;
-    border-radius: var(--border-radius-kbcss);
 }
 
 .board-column-header-task-count {
