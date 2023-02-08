@@ -2568,6 +2568,10 @@ span.cell-float-right {float: right;}
   margin-left: 50px;
 }
 
+.dropdown-submenu-open li.active {
+    border-left: 1px solid var(--pp-red-alt-2);
+    border-left-width: 5px;
+}
 
 @media screen and (max-width: 500px) {
     .public-header {
