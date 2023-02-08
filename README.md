@@ -8,8 +8,9 @@ This plugin adds a new style for the Kanboard user interface. As a polished them
 Features
 -------------
 
-- Animated web notification icon _(v2.0+)_
-- Custom CSS File to override the theme _(v2.0+)_
+- Show indicator in dropdown menus
+- Animated web notification icon
+- Custom CSS File to override the theme
 - The board is tweaked heavily. Similar to [GitLab's](https://gitlab.com "Go to GitLab") issueboard.
 - The whole interface is refreshed for an improved user experience.
 
@@ -36,7 +37,7 @@ Compatibility
 
 #### Other Plugins & Action Plugins
 - _No known issues_
-- Compatible with [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard"), [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard"), [Glancer](https://github.com/aljawaid/Glancer "Glancer - A plugin for Kanboard"), [ColorManager](https://github.com/aljawaid/ColorManager "ColorManager - A plugin for Kanboard")
+- Compatible with [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard"), [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard"), [Glancer](https://github.com/aljawaid/Glancer "Glancer - A plugin for Kanboard"), [ColorManager](https://github.com/aljawaid/ColorManager "ColorManager - A plugin for Kanboard"), [ApplicationBranding](https://github.com/aljawaid/ApplicationBranding "ApplicationBranding - A plugin for Kanboard")
 #### Core Files & Templates
 - _No template overrides_
 - _No database changes_
@@ -65,7 +66,7 @@ Installation
 
 **_or_**
 
-- **Install via [GitHub](https://github.com/url "Find the correct plugin from the list of repositories")**
+- **Install via [GitHub](https://github.com/aljawaid "Find the correct plugin from the list of repositories")**
   - Download the `.zip` file and decompress everything under the directory `/plugins`
   - The folder inside the `.zip` must not contain any branch names and must be exact case (matching the plugin name)
 
@@ -95,11 +96,7 @@ _Note: Not fully compatible with MySQL-Kanboard environments due to the field li
 Translations
 ------------
 
-- English (UK)
-- English (US)
-- French
-- German
-- Spanish
+- English (UK), English (US), French, German, Spanish,
 - _Contributors welcome_
 
 
