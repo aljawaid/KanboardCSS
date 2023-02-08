@@ -37,7 +37,7 @@ Compatibility
 
 #### Other Plugins & Action Plugins
 - _No known issues_
-- Compatible with [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard"), [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard"), [Glancer](https://github.com/aljawaid/Glancer "Glancer - A plugin for Kanboard"), [ColorManager](https://github.com/aljawaid/ColorManager "ColorManager - A plugin for Kanboard"), [ApplicationBranding](https://github.com/aljawaid/ApplicationBranding "ApplicationBranding - A plugin for Kanboard")
+- Compatible with [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard"), [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard"), [Glancer](https://github.com/aljawaid/Glancer "Glancer - A plugin for Kanboard"), [ColorManager](https://github.com/aljawaid/ColorManager "ColorManager - A plugin for Kanboard"), [ApplicationBranding](https://github.com/aljawaid/ApplicationBranding "ApplicationBranding - A plugin for Kanboard"), [TemplateManager](https://github.com/aljawaid/TemplateManager)
 #### Core Files & Templates
 - _No template overrides_
 - _No database changes_
