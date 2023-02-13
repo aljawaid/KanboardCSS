@@ -2557,6 +2557,25 @@ span.cell-float-right {float: right;}
     padding-left: 4px;
 }
 
+/* #### MODAL COSE BUTTON */
+#modal-close-button {
+    transform: scale(1.5);
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    background: var(--pp-red-alt-2);
+    padding: 3px 3px 5px 6px;
+    border-bottom-left-radius: 3px;
+    color: white;
+    box-shadow: -1px -1px 0px 3px var(--pp-white);
+}
+
+#modal-close-button:hover {
+    color: var(--pp-white) !important;
+}
+/* #### END OF MODAL COSE BUTTON */
+
 @media screen and (max-width: 500px) {
     .public-header {
         font-size: 1em;
