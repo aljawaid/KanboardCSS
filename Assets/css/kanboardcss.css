@@ -1578,50 +1578,6 @@ header h1 {
     margin-right: 3px;
 }
 
-.acc-templates-subsection-block {
-    margin: .7em 1.5em .5em 1.5em;
-    padding: .5em 1em;
-    border-radius: var(--border-radius-kbcss);
-    width: max-content;
-    box-shadow: 1px 2px 2px #888888;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.acc-templates-subsection-manager {
-    background-color: #007ac959;
-}
-
-.acc-templates-subsection-pp {
-    background-color: var(--pp-blue-box);
-}
-
-.acc-templates-subsection-zf {
-    background-color: var(--zf-gold-box);
-}
-
-.acc-templates-subsection-ll {
-    background-color: var(--ll-green-box);
-}
-
-.acc-templates-subsection-all {
-    background-color: var(--all-yellow-box);
-}
-
-.section-guide-block {
-    text-align: center;
-}
-
-.section-guide {
-    margin: 0 0 1em 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.section-list {
-    list-style: none;
-}
-
 .section-box {
     display: inline-block;
     width: 200px;
@@ -1643,35 +1599,14 @@ header h1 {
     margin-right: 0;
 }
 
-/*.subsection {}*/
-
-.acc-templates-section-title {
-    font-weight: bold;
-}
-
-.acc-templates-title, .acc-templates-section-title, .acc-comments-title, .acc-file-title, .acc-ext-link-title, .acc-int-link-title, .acc-subtasks-title, .acc-desc-title, .acc-customfields-title {
+.acc-templates-title, .acc-comments-title, .acc-file-title, .acc-ext-link-title, .acc-int-link-title, .acc-subtasks-title, .acc-desc-title, .acc-customfields-title {
     color: var(--pp-grey);
 }
 
 summary::marker {color: var(--button-primary-border-color-focus);}
 
-.acc-templates-title:hover, .acc-templates-section-title:hover, .acc-comments-title:hover, .acc-file-title:hover, .acc-ext-link-title:hover, .acc-int-link-title:hover, .acc-subtasks-title:hover, .acc-desc-title:hover, .acc-customfields-title:hover, .sidebar > ul a:hover {
+.acc-comments-title:hover, .acc-file-title:hover, .acc-ext-link-title:hover, .acc-int-link-title:hover, .acc-subtasks-title:hover, .acc-desc-title:hover, .acc-customfields-title:hover, .sidebar > ul a:hover {
     color: var(--pp-red-alt-2);
-}
-
-.acc-category-section {
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #000;
-    font-size: 1.1em;
-    text-align: center;
-    margin-top: .5em;
-    margin-bottom: .5em;
-}
-
-.acc-category-section p {
-    margin-bottom: .5em;
 }
 
 .floating-icon {
@@ -1681,67 +1616,6 @@ summary::marker {color: var(--button-primary-border-color-focus);}
     color: #333333;
     margin-right: .5em;
 }
-
-.acc-category-list {
-    margin-left: 1.2em;
-}
-
-.acc-category-list li {
-    line-height: 1.5em;
-}
-
-.acc-category-list code {
-    background-color: white;
-}
-
-.acc-category-code {
-    background-color: #828282;
-    padding: .5em 1.5em;
-    width: max-content;
-    border-radius: var(--border-radius-kbcss);
-    font-family: Tahoma;
-    letter-spacing: 1px;
-}
-
-.comment-highlight {
-    background-color: #828282;
-    padding: .1em .3em;
-    border-radius: var(--border-radius-kbcss);
-    font-family: Tahoma;
-    letter-spacing: 1px;
-    width: max-content;
-}
-
-.acc-category-footer {
-    margin: .7em 1.5em .5em 1.5em;
-    line-height: 1.7;
-    display: inline-block;
-}
-
-.acc-category-footer i {
-    font-weight: bold;
-}
-
-.second-list {
-    margin-left: 1em;
-}
-
-.second-list li a {
-    color: #000;
-    text-decoration: underline;
-    text-decoration-color: #B71234;
-    text-decoration-thickness: 2px;
-}
-
-.second-list li a:hover {
-    color: rgb(128, 128, 128);
-    text-decoration-color: #000;
-}
-
-.third-list {
-    margin-left: 2.5em;
-}
-
 
 .list-none {
     list-style: none;
@@ -1856,8 +1730,6 @@ span.notification a:hover {
 .sidebar-content .table-list-row.table-border-left {
     border: 0;
 }
-
-.intro {margin: .7em 1.5em .5em 1.5em;}
 
 #task-summary > .task-summary-container.color-red, #board > tbody > tr > td > div > .task-board.color-red {
     border-color: rgb(249, 5, 5);
@@ -2146,7 +2018,7 @@ table.metadata-table > tbody > tr > td {
 }
 
 .accordion-content {
-    margin-top: 0;
+    /*margin-top: 0;*/
 }
 
 .comments .text-editor textarea, .comments .text-editor .text-editor-preview-area {
