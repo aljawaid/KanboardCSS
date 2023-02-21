@@ -2573,6 +2573,7 @@ span.cell-float-right {float: right;}
     border-bottom-left-radius: 3px;
     color: white;
     box-shadow: -1px -1px 0px 3px var(--pp-white);
+    z-index: 1001;
 }
 
 #modal-close-button:hover {
