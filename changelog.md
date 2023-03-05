@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v3.0
+
+### What's Changed
+
+_(most recent changes are listed on top):_
+- Rename translations file
+- Update translations
+- Update screenshots - fixes #18
+- Update plugin description
+- NEW: Plugin Compatibility: [TemplateManager](https://github.com/aljawaid/TemplateManager)
+- FIX: Modal Close Button Priority
+- FIX: SVG Pointer Events Conflicting with Links
+- NEW: Fix Modal Close Button Display - improve styling and make larger
+- NEW: Plugin Compatibility: [ApplicationBranding](https://github.com/aljawaid/ApplicationBranding "ApplicationBranding - A plugin for Kanboard")
+- NEW: Show Indicator in Dropdown Menus
+- NEW: Save screen space in Application Settings
+- NEW: Add Text Selection Matching Colour
+- FIX: Remove `!important`
+
+
 ## v2.3
 
 ### What's Changed
@@ -14,11 +34,9 @@ _(most recent changes are listed on top):_
 - FIX: Empty Rulesets
 - FIX: Define the standard property `transform-origin` for compatibility
 - Cleanup code
-- Cleanup code
 - FIX: Add Missing `border-radius` Variable
 - FIX: Rename `border-radius` Variable
 - Cleanup colour code syntax
-- Cleanup code
 - FIX: Remove Priority Box Shadow
 - FIX: Merge Classes
 - FIX: Margin and class target - fix `margin-top` - remove `!important`
