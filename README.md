@@ -100,8 +100,9 @@ _Note: Not fully compatible with MySQL-Kanboard environments due to the field li
 Translations
 ------------
 
-- English (UK), English (US), French, German, Spanish,
+- English (UK), English (US), French, German, Spanish
 - _Contributors welcome_
+- _Starter template available_
 
 
 Authors & Contributors
