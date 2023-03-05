@@ -18,10 +18,13 @@ Features
 Screenshots
 ----------
 
-**v0.0.3**
+_Screenshots are for illustrative purposes only and may show features from other plugins._
 
-![v0.0.3](../master/Screenshots/v0.0.3/Screenshot-v0.0.3.png "v0.0.3")
-![v0.0.3](../master/Screenshots/v0.0.3/Screenshot-v0.0.3_2.png "v0.0.3")
+**Boards**
+![Boards](../master/Screenshots/screenshot-board.png)
+
+**Tasks**
+![Tasks](../master/Screenshots/screenshot-task.png)
 
 
 Usage
