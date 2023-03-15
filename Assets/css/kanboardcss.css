@@ -73,10 +73,6 @@ section.page .page-header > ul {
     margin-bottom: 10px;
 }
 
-svg {
-    pointer-events: none;
-}
-
 /*** FILE TYPES ***/
 .fa-file-pdf-o {color: #FA0F00;}
 /*.fa-file-image-o {}*/
