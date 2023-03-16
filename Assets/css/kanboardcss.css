@@ -1034,9 +1034,9 @@ table > thead > tr > th, table > tbody > tr > td, table > tbody > tr > th {
     padding-left: 10px;
 }
 
-table > tbody > tr > th, table > tbody > tr > td, table > thead > tr > th {
+/*table > tbody > tr > th, table > tbody > tr > td, table > thead > tr > th {
     border: 1px solid var(--button-blue-border-gradient-match)
-}
+}*/
 
 section > div > table, .accordion-content > table {
     border-collapse: unset;
