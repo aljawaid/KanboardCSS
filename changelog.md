@@ -1,6 +1,15 @@
 # Changelog
 
 
+## v3.1
+
+### What's Changed
+
+_(most recent changes are listed on top):_
+- FIX: Remove Global Table Selector
+- REVERT FIX: SVG Pointer Events Conflicting with Links - rely on plugins to code their svgs properly
+
+
 ## v3.0
 
 ### What's Changed
