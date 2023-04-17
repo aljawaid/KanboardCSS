@@ -430,7 +430,13 @@ body {
 .sidebar {
     padding-left: 5px;
     min-width: fit-content;
-    /*font-size: small;*/
+}
+
+.sidebar > ul li {
+    transition: var(--transition-kanboard-css);
+    border-left: 5px solid white;
+    padding-left: 8px;
+    border-bottom: 0;
 }
 
 /* unvisited link */
