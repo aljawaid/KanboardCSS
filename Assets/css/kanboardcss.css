@@ -422,14 +422,14 @@ body {
     padding: 0px 2px 0px 2px;
 }
 
-.sidebar>ul a {
-    color: #271e1e;
+.sidebar > ul a {
+    color: var(--pp-grey);
 }
 
 .sidebar {
-    padding-left: 10px;
-    min-width: 100px;
-    font-size: small;
+    padding-left: 5px;
+    min-width: fit-content;
+    /*font-size: small;*/
 }
 
 /* unvisited link */
@@ -1532,9 +1532,9 @@ header h1 {
     padding-left: 0!important;
 }
 
-.sidebar > ul a {
+/*.sidebar > ul a {
     font-weight: normal !important;
-}
+}*/
 
 /*.acc-desc-title {
     margin-right: .1em;
