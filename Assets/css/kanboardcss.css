@@ -424,6 +424,7 @@ body {
 
 .sidebar > ul a {
     color: var(--pp-grey);
+    font-weight: 400;
 }
 
 .sidebar {
