@@ -792,6 +792,10 @@ blockquote span {
     top: 50px;
     bottom: auto;
 }
+
+.alert-fade-out, .alert-error {
+    animation: fadeout 10s linear forwards;
+    box-shadow: 0px 0px 20px 6px #000;
 }
 /* END ALERT */
 
