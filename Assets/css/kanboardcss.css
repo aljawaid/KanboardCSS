@@ -787,9 +787,11 @@ blockquote span {
 	background-color: #f6d009;
 	border: 1px solid #fbeed5;*/
     font-weight: 700;
-    /*animation: fadeout 10s linear forwards;*/
     border: 2px solid;
 	font-style: italic;
+    top: 50px;
+    bottom: auto;
+}
 }
 /* END ALERT */
 
