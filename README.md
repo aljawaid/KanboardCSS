@@ -1,4 +1,5 @@
 # KanboardCSS
+![GitHub All Releases](https://img.shields.io/github/downloads/aljawaid/KanboardCSS/total?style=for-the-badge "GitHub All Downloads")
 
 #### _Theme Plugin for [Kanboard](https://github.com/fguillot/kanboard "Kanboard - Kanban Project Management Software")_
 
