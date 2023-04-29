@@ -1,5 +1,4 @@
 <a name="readme-top"></a>
-
 # KanboardCSS
 ![GitHub All Releases](https://img.shields.io/github/downloads/aljawaid/KanboardCSS/total?style=for-the-badge "GitHub All Downloads") - **_A theme plugin for [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software")_**
 
