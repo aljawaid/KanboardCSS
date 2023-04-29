@@ -1,5 +1,5 @@
-<a name="readme-top"></a>
-# KanboardCSS
+<h1 name="readme-top">KanboardCSS</h1>
+
 ![GitHub All Releases](https://img.shields.io/github/downloads/aljawaid/KanboardCSS/total?style=for-the-badge "GitHub All Downloads") - **_A theme plugin for [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software")_**
 
 This pure CSS theme replaces the look and feel of the Kanboard user interface. For modern browsers using gradients and shades of blue and red, KanboardCSS refreshes the the user experience. A new animated notification icon easily identifies new messages without affecting browser performance. All tables and forms are restyled to save screen space and improve productivity. This theme works perfectly with other plugins.
