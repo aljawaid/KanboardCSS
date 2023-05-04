@@ -616,7 +616,7 @@ div.task-board-recent {
 }
 
 .task-board-title > a {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 /* HOLDER OF TASKS */
@@ -705,7 +705,7 @@ code {
     background-color: rgba(27, 31, 35, .32);
     border-radius: var(--border-radius-kbcss);
     color: #000000;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
     font-size: 85%;
 }
 
@@ -714,7 +714,7 @@ blockquote {
     font-size: 1.1em;
     width: auto;
     margin: 5px auto;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     font-style: italic;
     color: #555555;
     padding: 1.2em 30px 1.2em 75px !important;
@@ -725,7 +725,7 @@ blockquote {
 }
 
 blockquote::before {
-    font-family: "Arial";
+    font-family: Arial, sans-serif;
     content: "\201C";
     color: rgb(168, 207, 255);
     font-size: 4em;
@@ -735,7 +735,7 @@ blockquote::before {
 }
 
 blockquote::after {
-    content: '';
+    content: "";
 }
 
 blockquote span {
@@ -2447,6 +2447,7 @@ span.cell-float-right {
 #modal-close-button:hover {
     color: var(--pp-white) !important;
 }
+
 /* #### END OF MODAL COSE BUTTON */
 
 @media screen and (max-width: 500px) {
