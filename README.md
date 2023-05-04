@@ -55,13 +55,13 @@ _Screenshots are for illustrative purposes only and may show features from other
 **Tasks**
 ![Tasks](../master/Screenshots/screenshot-task.png)
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#features">&#8592; Previous</a>] [<a href="#installation--compatibility">&#8594; Next</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-readme-bottom">&#8595; Bottom</a>] [<a href="#features">&#8592; Previous</a>] [<a href="#installation--compatibility">&#8594; Next</a>] [<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 
 ## Usage
 
 Refresh the page or restart your browser.
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8592; Previous</a>] [<a href="#authors--contributors">&#8594; Next</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-readme-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8592; Previous</a>] [<a href="#authors--contributors">&#8594; Next</a>] [<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 
 ## Installation & Compatibility
 
@@ -92,7 +92,7 @@ Refresh the page or restart your browser.
 
 </details>
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#usage">&#8592; Previous</a>] [<a href="#license">&#8594; Next</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-readme-bottom">&#8595; Bottom</a>] [<a href="#usage">&#8592; Previous</a>] [<a href="#license">&#8594; Next</a>] [<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 
 ## Authors & Contributors
 
@@ -105,7 +105,7 @@ Refresh the page or restart your browser.
 - [GDmac](https://github.com/GDmac) - Contributor
 - _Contributors welcome_
 
-<p align="right">[<a href="#readme-bottom">&#8595; Bottom</a>] [<a href="#installation--compatibility">&#8592; Previous</a>] [<a href="#readme-top">&#8593; Top</a>]</p>
+<p align="right">[<a href="#user-content-readme-bottom">&#8595; Bottom</a>] [<a href="#installation--compatibility">&#8592; Previous</a>] [<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 
 ## License
 
@@ -113,7 +113,7 @@ Refresh the page or restart your browser.
 
 ---
 
-<h3 align="center">
+<p align="center">
     <a href="https://github.com/aljawaid/KanboardCSS/stargazers" title="View Stargazers">
         <img src="https://img.shields.io/github/stars/aljawaid/KanboardCSS?logo=github&style=flat-square" alt="KanboardCSS">
     </a>
@@ -135,6 +135,6 @@ Refresh the page or restart your browser.
     <a href="https://github.com/aljawaid/KanboardCSS/compare/" title="Latest Commits">
         <img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/aljawaid/KanboardCSS/latest?style=flat-square">
     </a>
-</h3>
+</p>
 <p align="right">[<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 <a id="user-content-readme-bottom"></a>
