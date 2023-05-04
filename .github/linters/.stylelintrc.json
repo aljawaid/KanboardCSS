@@ -17,6 +17,13 @@
                 "severity": "warning"
             }
         ],
+        "font-family-no-missing-generic-family-keyword": [
+            true,
+            {
+                "ignoreFontFamilies": ["FontAwesome"],
+                "severity": "warning"
+            }
+        ],
         "color-no-invalid-hex": true,
         "color-hex-case": "upper",
         "color-hex-length": [
