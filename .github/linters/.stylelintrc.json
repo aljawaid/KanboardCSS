@@ -86,6 +86,7 @@
                 "message": "Try not to use !important in your declaration",
                 "severity": "warning"
             }
-        ]
+        ],
+        "media-feature-range-notation": null
     }
 }
