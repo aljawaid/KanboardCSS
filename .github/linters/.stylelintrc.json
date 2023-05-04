@@ -51,7 +51,7 @@
         "value-keyword-case": [
             "lower",
             {
-                "ignoreProperties": ["/^(b|B)ackground$/", "text-rendering"],
+                "ignoreProperties": ["/^(b|B)ackground$/", "text-rendering"]
             }
         ],
         "comment-empty-line-before": [
