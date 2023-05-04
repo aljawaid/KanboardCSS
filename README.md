@@ -1,4 +1,4 @@
-<h1 name="readme-top">KanboardCSS</h1>
+<h1 name="user-content-readme-top">KanboardCSS</h1>
 <p align="center">
     <a href="https://github.com/aljawaid/KanboardCSS/releases">
         <img src="https://img.shields.io/github/v/release/aljawaid/KanboardCSS?style=for-the-badge&color=brightgreen" alt="GitHub Latest Release (by date)" title="GitHub Latest Release (by date)">
@@ -136,5 +136,5 @@ Refresh the page or restart your browser.
         <img alt="GitHub commits since latest release (by date)" src="https://img.shields.io/github/commits-since/aljawaid/KanboardCSS/latest?style=flat-square">
     </a>
 </h3>
-<p align="right">[<a href="#readme-top">&#8593; Top</a>]</p>
-<a name="readme-bottom"></a>
+<p align="right">[<a href="#user-content-readme-top">&#8593; Top</a>]</p>
+<a name="user-content-readme-bottom"></a>
