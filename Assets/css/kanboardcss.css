@@ -1012,7 +1012,7 @@ td::-webkit-scrollbar-thumb {
     font-weight: 700;
 }
 
-.sidebar > .sidebar-summary > ul li.active a:after {
+.sidebar > .sidebar-summary > ul li.active a::after {
     content: "\f054";
     float: right;
     margin-top: 5px;
@@ -1205,7 +1205,7 @@ code {
     width: 0;
 }
 
-#ProjDetailsRow > .project-header > .views-switcher-component > ul > li:after {
+#ProjDetailsRow > .project-header > .views-switcher-component > ul > li::after {
     display: none;
 }
 
@@ -2235,7 +2235,7 @@ tbody tr.disabled {
     position: relative;
 }
 
-.task-board-title:before {
+.task-board-title::before {
     content:  "\f249";
     font: normal normal normal 14px/1 FontAwesome;
     position: absolute;
@@ -2279,7 +2279,7 @@ span.task-icon-age-column {
     border: 1px solid var(--button-blue-border-gradient-match);
 }
 
-#form-task_id:before {
+#form-task_id::before {
     content: "\f054";
     text-rendering: auto;
     font: normal normal normal 1em/1 FontAwesome;
