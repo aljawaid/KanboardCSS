@@ -1,0 +1,38 @@
+{
+    "MD007": {
+        "description": "MD007/ul-indent - Unordered list indentation",
+        "type": [
+            "boolean",
+            "object"
+        ],
+        "default": true,
+        "properties": {
+            "indent": {
+                "description": "Spaces for indent",
+                "type": "integer",
+                "minimum": 1,
+                "default": 4
+            },
+            "start_indented": {
+                "description": "Whether to indent the first level of the list",
+                "type": "boolean",
+                "default": false
+            },
+            "start_indent": {
+                "description": "Spaces for first level indent (when start_indented is set)",
+                "type": "integer",
+                "minimum": 1,
+                "default": 4
+            }
+        },
+        "additionalProperties": false
+    },
+    "ul-indent": {
+        "$ref": "#/properties/MD007"
+    },
+    "MD033": false,
+    "MD013": false,
+    "MD036": false,
+    "MD012": false,
+    "MD032": false
+}

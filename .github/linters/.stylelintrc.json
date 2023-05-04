@@ -1,0 +1,76 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "no-extra-semicolons": true,
+        "number-leading-zero": "never",
+        "shorthand-property-no-redundant-values": null,
+        "comment-whitespace-inside": [
+            "always",
+            {
+                "severity": "warning"
+            }
+        ],
+        "font-family-name-quotes": "always-where-recommended",
+        "font-weight-notation": [
+            "numeric",
+            {
+                "severity": "warning"
+            }
+        ],
+        "color-no-invalid-hex": true,
+        "color-hex-case": "upper",
+        "color-hex-length": [
+            "long",
+            {
+                "severity": "warning"
+            }
+        ],
+        "alpha-value-notation": "number",
+        "value-list-comma-newline-after": null,
+        "length-zero-no-unit": true,
+        "no-descending-specificity": null,
+        "string-quotes": "double",
+        "selector-type-case": "lower",
+        "selector-id-pattern": [
+            "([A-Z][a-z0-9]+)((\\d)|([A-Z0-9][a-z0-9]+))*([A-Z])?",
+            {
+                "message": "Expected CSS Selector ID pattern to be CamelCase",
+                "severity": "warning"
+            }
+        ],
+        "value-list-comma-space-after": "always",
+        "color-function-notation": "legacy",
+        "number-max-precision": 5,
+        "value-no-vendor-prefix": [
+            true,
+            {
+                "severity": "warning"
+            }
+        ],
+        "comment-empty-line-before": [
+            "always",
+            {
+                "except": ["first-nested"]
+            }
+        ],
+        "declaration-block-no-redundant-longhand-properties": [
+            true,
+            {
+                "severity": "warning"
+            }
+        ],
+        "property-no-vendor-prefix": [
+            true,
+            {
+                "severity": "warning"
+            }
+        ],
+        "declaration-no-important": [
+            true,
+            {
+                "message": "Try not to use !important in your declaration",
+                "severity": "warning"
+            }
+        ]
+    }
+}
