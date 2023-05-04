@@ -75,19 +75,19 @@ section.page .page-header > ul {
 
 /*** FILE TYPES ***/
 .fa-file-pdf-o {color: #FA0F00;}
-/*.fa-file-image-o {}*/
+/* .fa-file-image-o {} */
 .fa-file-excel-o {color: #007237;}
 .fa-file-word-o {color: #285397;}
 .fa-file-powerpoint-o {color: #B93214;}
 .fa-file-archive-o {color: #B37900;}
-/*.fa-file-audio-o {}*/
-/*.fa-file-video-o {}*/
+/* .fa-file-audio-o {} */
+/* .fa-file-video-o {} */
 .fa-html5 {color: #E14D25;}
-/*.fa-file-code-o {}*/
+/* .fa-file-code-o {} */
 .fa-css3 {color: #1862B6;}
-/*.fa-picture-o {}*/
-/*.fa-file {}*/
-/*.fa-file-text-o {}*/
+/* .fa-picture-o {} */
+/* .fa-file {} */
+/* .fa-file-text-o {} */
 .fa-font {
     border: 1px solid #000000;
     border-radius: var(--border-radius-kbcss);
@@ -95,7 +95,7 @@ section.page .page-header > ul {
     padding-bottom: 1px;
     width: 18px !important;
 }
-/*.fa-file-o {}*/
+/* .fa-file-o {} */
 
 .fa-cog, .fa-caret-down {
     color: #4D4D4D;
@@ -114,7 +114,7 @@ kbd {
     padding: .1em .3em;
     font-size: 100%;
     font-weight: 700;
-    color: #fff;
+    color: #FFFFFF;
     background-color: #212529;
     border-radius: var(--border-radius-kbcss);
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
