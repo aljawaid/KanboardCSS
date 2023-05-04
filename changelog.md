@@ -56,7 +56,7 @@ _(most recent changes are listed on top):_
 - Update archive - remove git code
 - Prepare 2023
 - Fix and Add Transition Variable
-- Fix for ColorManager plugin https://github.com/aljawaid/ColorManager/commit/29c3c9e894326288df42dc235b1b6503b1e347b7
+- Fix for [ColorManager plugin](https://github.com/aljawaid/ColorManager/commit/29c3c9e894326288df42dc235b1b6503b1e347b7)
 - Fix CSS Jumping Side Menu
 - FIX: Box Shadow Variable
 
@@ -109,7 +109,7 @@ _(most recent changes are listed on top):_
 - Add styling to blockquote text
 - Renamed `style.css` to `kanboardcss.css` for easier reference during testing (reinstall of plugin maybe required)
 - Hide scroll bars in board menu list
-- Hide column titles (except the first one) on each swimlane Thanks [@Qrizzz] (https://github.com/kanboard/kanboard/issues/3994)
+- Hide column titles (except the first one) on each swimlane Thanks [@Qrizzz](https://github.com/kanboard/kanboard/issues/3994)
 - Make task titles bold in board view
 - Make tooltip info circles bit bigger in board view
 - Add clearer and slightly darker page headers
@@ -130,33 +130,33 @@ _(most recent changes are listed on top):_
 ## v0.0.5
 
 _(most recent changes are listed on top):_
-* The blue heading from 0.0.3 is gone and quiet grey is implemented.
-* Tasks has gotten more padding and margin for more space between everything (and font-size, width of colorstatus, etc.)
-* Collapsed column has been minimized from 28px to 5px
+- The blue heading from 0.0.3 is gone and quiet grey is implemented.
+- Tasks has gotten more padding and margin for more space between everything (and font-size, width of colorstatus, etc.)
+- Collapsed column has been minimized from 28px to 5px
 
 
 ## 0.0.4
 
 _(most recent changes are listed on top):_
-* Based on 0.0.3 but will be more colorful - mostly in cold blue
+- Based on 0.0.3 but will be more colorful - mostly in cold blue
 
 
 ## v0.0.3
 
 _(most recent changes are listed on top):_
-* Changed theme to a lookup alike Gitlabs Issue board
+- Changed theme to a lookup alike Gitlabs Issue board
 
 
 ## v0.0.2
 
 _(most recent changes are listed on top):_
-* Made ready for git clone to `plugins` folder
+- Made ready for git clone to `plugins` folder
 
 
 ## v0.0.1
 
 _(most recent changes are listed on top):_
-* Initial release
+- Initial release
 
 ---
 
