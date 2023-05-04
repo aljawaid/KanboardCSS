@@ -562,7 +562,7 @@ div.task-board-recent {
     border-bottom: none;
 }
 
-.filter-box input[type=text] {
+.filter-box input[type="text"] {
     max-width: 300px;
 }
 
@@ -595,8 +595,8 @@ div.task-board-recent {
 /* GITLAB LOOKALIKE */
 .board-column-header {
     width: initial;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
+    /* border-top-left-radius: 2px; */
+    /* border-top-right-radius: 2px; */
     background: #FAFAFA;
     border: 1px solid #E5E5E5;
     border-radius: 2px;
@@ -616,13 +616,13 @@ div.task-board-recent {
 }
 
 .task-board-title > a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /* HOLDER OF TASKS */
 tr.board-swimlane > td {
-	background-color: #FAFAFA;;
-	border-radius: 13px;
+	background-color: #FAFAFA;
+	/* border-radius: 13px; */
     /* Gitlab */
     -webkit-flex: 1;
     flex: 1;
@@ -630,11 +630,10 @@ tr.board-swimlane > td {
     margin-bottom: 0;
     padding: 5px;
     overflow-x: hidden;
-    background: #FAFAFA;
+    /* background: #FAFAFA; */
     border: 1px solid #E5E5E5;
     border-radius: 0 0 10px 10px;
     /* Gitlab end */
-
 }
 
 th.board-swimlane-header {
@@ -651,12 +650,8 @@ th.board-swimlane-header {
     font-size: 13px;
     border-left-width: 2.5px !important;
     background-color: white !important;
-    background: #FFFFFF;
     border-radius: var(--border-radius-kbcss);
-    padding-left: 6px;
-    padding-right: 4px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px 4px 6px 6px;
     margin-bottom: 8px;
     margin-left: 8px;
     margin-right: 8px;
@@ -719,7 +714,7 @@ blockquote {
     font-size: 1.1em;
     width: auto;
     margin: 5px auto;
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-style: italic;
     color: #555555;
     padding: 1.2em 30px 1.2em 75px !important;
@@ -730,7 +725,7 @@ blockquote {
 }
 
 blockquote::before {
-    font-family: Arial;
+    font-family: "Arial";
     content: "\201C";
     color: rgb(168, 207, 255);
     font-size: 4em;
@@ -748,12 +743,15 @@ blockquote span {
     color: #333333;
     font-style: normal;
     font-weight: 700;
-    margin-top:1em;
+    margin-top: 1em;
 }
 /* END BLOCKQUOTE TEXT */
 
 /* HIDE SCROLL BARS IN BOARD MENU LIST */
-#select-dropdown-menu {overflow: auto !important;}
+#select-dropdown-menu {
+    overflow: auto !important;
+}
+
 /* END HIDE SCROLL BARS IN BOARD MENU LIST */
 
 /* INCREASE INFO CIRCLE SIZE IN TOOLTIP */
@@ -764,7 +762,9 @@ blockquote span {
 /* END INCREASE INFO CIRCLE SIZE IN TOOLTIP */
 
 /* INCREASE PAGE HEADER TEXT SIZE */
-.page-header ul li {font-size: 1.2em;}
+.page-header ul li {
+    font-size: 1.2em;
+}
 /* END INCREASE PAGE HEADER TEXT SIZE */
 
 /* ALERT */
@@ -1340,6 +1340,7 @@ select {
     padding: 2px 3px;
     border-radius: var(--border-radius-kbcss);
 }
+
 .task-priority-4 {
     color: #000000;
     font-weight: 700;
@@ -1348,6 +1349,7 @@ select {
     padding: 2px 3px;
     border-radius: var(--border-radius-kbcss);
 }
+
 .task-priority-5 {
     color: #000000;
     font-weight: 700;
@@ -1450,8 +1452,7 @@ tr.board-swimlane > td {
     max-width: 200px;
     float: right;
     text-align: right;
-    margin-top: 0;
-    margin: auto;
+    margin-top: 0 auto auto auto;
     border: 3px dashed #007AC9;
     border-radius: var(--border-radius-kbcss);
 }
@@ -1762,7 +1763,7 @@ span.notification a:hover {
 }
 
 .priority-table-new-list-details ul li {
-    display: inline list-item!important;;
+    display: inline list-item!important;
 }
 
 .priority-table-new-list-row-gn {
@@ -2169,6 +2170,7 @@ tbody tr.disabled {
     position: relative;
     margin: auto .5rem;
 }
+
 .public-board-title {
     font-size: 1.5em;
     color: #665858;
