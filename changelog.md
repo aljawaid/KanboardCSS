@@ -3,16 +3,12 @@
 
 ## v3.1
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 - FIX: Remove Global Table Selector
 - REVERT FIX: SVG Pointer Events Conflicting with Links - rely on plugins to code their svgs properly
 
 
 ## v3.0
-
-### What's Changed
 
 _(most recent changes are listed on top):_
 - Rename translations file
@@ -31,8 +27,6 @@ _(most recent changes are listed on top):_
 
 
 ## v2.3
-
-### What's Changed
 
 _(most recent changes are listed on top):_
 - FIX: Remove Duplicate
@@ -55,8 +49,6 @@ _(most recent changes are listed on top):_
 
 ## v2.2
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 - FIX: Rename Folder - Folder Consistency
 - FIX: Folder Consistency
@@ -71,16 +63,12 @@ _(most recent changes are listed on top):_
 
 ## v2.1
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 - FIX: Wrong installed version when installing v2.0 (still showed as v1.5)
 - General bug fixes and improvements
 
 
 ## v2.0
-
-### What's Changed
 
 _(most recent changes are listed on top):_
 - NEW: Mobile Improvements
@@ -113,8 +101,6 @@ _(most recent changes are listed on top):_
 
 ## v1.5
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 - Make page text pure black for easier reading
 - Make links in task descriptions stand out
@@ -132,8 +118,6 @@ _(most recent changes are listed on top):_
 
 ## v1.0
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 - Relaunched based on style `v0.0.4`
 - Restructured all files and folders
@@ -145,8 +129,6 @@ _(most recent changes are listed on top):_
 
 ## v0.0.5
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 * The blue heading from 0.0.3 is gone and quiet grey is implemented.
 * Tasks has gotten more padding and margin for more space between everything (and font-size, width of colorstatus, etc.)
@@ -155,15 +137,11 @@ _(most recent changes are listed on top):_
 
 ## 0.0.4
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 * Based on 0.0.3 but will be more colorful - mostly in cold blue
 
 
 ## v0.0.3
-
-### What's Changed
 
 _(most recent changes are listed on top):_
 * Changed theme to a lookup alike Gitlabs Issue board
@@ -171,15 +149,11 @@ _(most recent changes are listed on top):_
 
 ## v0.0.2
 
-### What's Changed
-
 _(most recent changes are listed on top):_
 * Made ready for git clone to `plugins` folder
 
 
 ## v0.0.1
-
-### What's Changed
 
 _(most recent changes are listed on top):_
 * Initial release
