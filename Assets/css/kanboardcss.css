@@ -172,7 +172,7 @@ bell - adapted from https://github.com/p0lym0rphik/Greenwing/issues/38#issue-803
 ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 */
 .web-notification-icon {
-    /*animation: bell 1s 5s both infinite;*/
+    /* animation: bell 1s 5s both infinite; */
     -webkit-animation: ring 4s .7s ease-in-out infinite;
     -webkit-transform-origin: 50% 4px;
     -moz-animation: ring 4s .7s ease-in-out infinite;
@@ -287,10 +287,10 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 }
 
 /* This will hide column names above board/swimlanes */
-/*[class^="board-swimlane-columns-"]{display: none;}*/
+/* [class^="board-swimlane-columns-"]{display: none;} */
 
 /* This will hide all column titles on swimlanes except for the first one */
-/*tr[class*='board-swimlane-columns']:not(:first-child) {display: none;}*/
+/* tr[class*='board-swimlane-columns']:not(:first-child) {display: none;} */
 
 .board-swimlane-columns-0 {
     display: table-row;
@@ -361,8 +361,14 @@ header h1 a {
 }
 
 /* ## FOR KANBOARD 1.2.5 ###################################### */
-header .board-selector-container {max-width: 25%}
-.js-select-dropdown-autocomplete-rendered {max-width: 100%}
+header .board-selector-container {
+    max-width: 25%;
+}
+
+.js-select-dropdown-autocomplete-rendered {
+    max-width: 100%;
+}
+
 /* ############################################################ */
 
 .page-header {
@@ -549,10 +555,8 @@ div.task-board-recent {
     border-width: 1px !important;
     border-left-width: 4px !important;
     background-color: white !important;
-    background: #FFFFFF;
     border-radius: 2px;
     box-shadow: 0 1px 2px rgba(186, 186, 186, .5);
-    border-left-width: 4px !important;
     border-right: none;
     border-top: 1px solid #ECECEC !important;
     border-bottom: none;
