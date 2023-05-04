@@ -27,7 +27,7 @@
     --pp-blue-box: rgba(0, 122, 201, .6);
     --all-yellow-box: rgba(223, 255, 0, .6);
     --header-page-margin-kbcss: 5px 15px 10px 15px;
-    --box-shadow-kbcss: 1px 1px 1px 0px #000;
+    --box-shadow-kbcss: 1px 1px 1px 0 #000;
     --border-radius-kbcss: 3px;
     --transition-kanboard-css: ease-in-out all .3s;
 }
@@ -153,7 +153,7 @@ kbd {
 }
 
 .h3 {
-	border-bottom: 0px;
+	border-bottom: 0;
 }
 
 a {
@@ -178,7 +178,7 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
     -moz-transform-origin: 50% 4px;
     transform-origin: 50% 4px;
     animation: ring 4s .7s ease-in-out infinite;
-    text-shadow: 0px 2px 2px #000;
+    text-shadow: 0 2px 2px #000;
 }
 
 @keyframes bell {
@@ -276,8 +276,8 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
  * ############################################################ */
 
  #board {
-   border-top: 0px solid #CCC;
-   border-right: 0px solid #CCC;
+   border-top: 0 solid #CCC;
+   border-right: 0 solid #CCC;
 }
 
 .board-swimlane > td {
@@ -296,16 +296,16 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 }
 
 .board-swimlane-columns-0 > .board-column-header {
-    border-bottom: 0px solid #c7c7c7;
+    border-bottom: 0 solid #c7c7c7;
 }
 
 #board-container table {
 	border-collapse: separate;
     border-spacing: 15px 0;
-    border-top: 0px solid #CCC;
-    border-left: 0px solid #CCC;
-    border-right: 0px solid #CCC;
-    border-bottom: 0px solid #CCC;
+    border-top: 0 solid #CCC;
+    border-left: 0 solid #CCC;
+    border-right: 0 solid #CCC;
+    border-bottom: 0 solid #CCC;
 }
 
 #board-container td {
@@ -317,10 +317,10 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 }
 
 #board-container tr {
-    border-top: 0px solid #CCC;
-    border-left: 0px solid #CCC;
-    border-right: 0px solid #CCC;
-    border-bottom: 0px solid #CCC;
+    border-top: 0 solid #CCC;
+    border-left: 0 solid #CCC;
+    border-right: 0 solid #CCC;
+    border-bottom: 0 solid #CCC;
 }
 
 .board-column-expanded .board-add-icon a {
@@ -342,10 +342,10 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
     background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
     background-color:#7892c2;
     padding: 10px 10px 15px 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px!important;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0 !important;
     border-bottom: none;
 }
 
@@ -367,13 +367,13 @@ header .board-selector-container {max-width: 25%}
 /* ############################################################ */
 
 .page-header {
-    padding: 0px 0px 3px 15px;
+    padding: 0 0 3px 15px;
     background-color: #0e0e0e4d;
     font-size: small;
 }
 
 .sidebar-content>.page-header {
-    padding: 5px 0px 5px 15px;
+    padding: 5px 0 5px 15px;
     border-radius: 5px;
 }
 
@@ -390,8 +390,8 @@ header .board-selector-container {max-width: 25%}
 }
 
 .page {
-	margin-left: 0px!important;
-	margin-right: 0px!important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
 }
 
 h1 {
@@ -400,11 +400,11 @@ h1 {
 }
 
 body {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
     color: #000 !important;
     /*font-family: "Open Sans","Helvetica",Arial,sans-serif;*/
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -419,7 +419,7 @@ body {
 }
 
 .ui-sortable {
-    padding: 0px 2px 0px 2px;
+    padding: 0 2px 0 2px;
 }
 
 .sidebar > ul a {
@@ -645,16 +645,16 @@ tr.board-swimlane > td {
     overflow-x: hidden;
     background: #fafafa;
     border: 1px solid #e5e5e5;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0 0 10px 10px;
     /* Gitlab end */
 
 }
 
 th.board-swimlane-header {
 	background-color: white;
-	border-bottom: 0px solid #CCC;
-	border-top: 0px solid #CCC;
-	border-left: 0px solid #CCC;
+	border-bottom: 0 solid #CCC;
+	border-top: 0 solid #CCC;
+	border-left: 0 solid #CCC;
 	font-size: 14px;
 	line-height: 22px;
 }
@@ -795,7 +795,7 @@ blockquote span {
 
 .alert-fade-out, .alert-error {
     animation: fadeout 10s linear forwards;
-    box-shadow: 0px 0px 20px 6px #000;
+    box-shadow: 0 0 20px 6px #000;
 }
 /* END ALERT */
 
@@ -815,7 +815,7 @@ blockquote span {
 /* END TASK LIMIT */
 
 .action-menu {
-    padding: 4px 0px 4px 6px;
+    padding: 4px 0 4px 6px;
     background-color: var(--blue-border-gradient-match);
     border-radius: var(--border-radius-kbcss);
 }
@@ -884,7 +884,7 @@ ul#BoardViews > li {
 }
 
 .board-dropdown {
-    padding: 4px 0px 4px 8px;
+    padding: 4px 0 4px 8px;
     border-radius: var(--border-radius-kbcss);
     background: var(--button-blue-gradient);
     border-color: var(--button-blue-border-gradient-match);
@@ -1171,7 +1171,7 @@ code {
 }
 
 #ProjectOverview > span {
-    padding: 3px 0px 4px 2px;
+    padding: 3px 0 4px 2px;
 }
 
 #ProjectOverview span .overview-columns, #ProjectOverview span .overview-tasks {
@@ -1446,7 +1446,7 @@ tr.board-swimlane > td {
 }
 
 tr.board-swimlane > td {
-    border-radius: 0px 0px 2px 2px !important;
+    border-radius: 0 0 2px 2px !important;
 }
 
 .board-task-list > div {
@@ -1486,7 +1486,7 @@ tr.board-swimlane > td {
 }
 
 article.markdown > ul > li > a {
-    padding: 0px 4px 2px 4px;
+    padding: 0 4px 2px 4px;
     border-radius: var(--border-radius-kbcss);
     line-height: 1.7em;
 }
@@ -1649,9 +1649,9 @@ summary::marker {color: var(--button-primary-border-color-focus);}
     font-size: 90%;
     background-color: var(--pp-red-alt-2);
     border-radius: var(--border-radius-kbcss);
-    padding: 0px 3px 1px 3px;
+    padding: 0 3px 1px 3px;
     border: 1px solid #000;
-    margin: 0px 3px 2px 2px;
+    margin: 0 3px 2px 2px;
     cursor: context-menu;
     display: inline-block;
 }
@@ -1666,9 +1666,9 @@ th.board-swimlane-header {
     font-size: 90%;
     background-color: var(--pp-red-alt-2);
     border-radius: var(--border-radius-kbcss);
-    padding: 0px 3px 1px 3px;
+    padding: 0 3px 1px 3px;
     border: 1px solid #000;
-    margin: 0px 3px 2px 0px;
+    margin: 0 3px 2px 0;
     cursor: context-menu;
 }
 
@@ -1870,7 +1870,7 @@ span.notification a:hover {
     padding: 2px;
     border-radius: var(--border-radius-kbcss);
     background-color: var(--pp-white);
-    margin: 0px 7px 0px 0px;
+    margin: 0 7px 0 0;
     line-height: 40px;
 }
 
@@ -2101,7 +2101,7 @@ tbody tr.disabled {display: none;}
 
 .column-score {
     position: absolute;
-    right: 0px;
+    right: 0;
     margin: auto 1px;
     bottom: 0;
     cursor: context-menu;
@@ -2110,7 +2110,7 @@ tbody tr.disabled {display: none;}
 
 .board-column-tooltip {
     margin-left: -2px;
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .board-column-tooltip span i {
@@ -2173,7 +2173,7 @@ tbody tr.disabled {display: none;}
     background-color: #fff;
     z-index: 1;
     margin-bottom: 5px;
-    box-shadow: 0px 0px 9px 1px #711a1a;
+    box-shadow: 0 0 9px 1px #711a1a;
     padding-bottom: 5px;
 }
 
@@ -2288,7 +2288,7 @@ span.task-icon-age-column {
 }
 
 .page-header {
-    padding: 0px 0px 5px 2px !important;
+    padding: 0 0 5px 2px !important;
     background-color: white !important;
     margin-top: 10px;
 }
@@ -2344,7 +2344,7 @@ span.task-icon-age-column {
 }
 
 .btn-sm {
-    padding: 0px 4px 0px 3px;
+    padding: 0 4px 0 3px;
     line-height: 20px;
     background: var(--button-blue-gradient);
     border: 1px solid var(--button-blue-border-gradient-match);
@@ -2355,7 +2355,7 @@ span.task-icon-age-column {
 }
 
 #main > .project-header {
-    box-shadow: 0px 2px 10px 0px #000;
+    box-shadow: 0 2px 10px 0 #000;
 }
 
 .board-swimlane-header {
@@ -2386,7 +2386,7 @@ span.task-icon-age-column {
 }
 
 .task-board-recent {
-    box-shadow: 0px 0px 3px 2px #000 !important;
+    box-shadow: 0 0 3px 2px #000 !important;
     margin-top: .2rem;
     margin-bottom: 1.2rem !important;
     border: none;
@@ -2401,9 +2401,9 @@ span.task-icon-age-column {
 span.cell-float-right {float: right;}
 
 #ProjectOverview > span {
-    padding: 3px 0px 0px 0px;
+    padding: 3px 0 0 0;
     display: inline-block;
-    margin-block: 3px 0px;
+    margin-block: 3px 0;
     padding-block: 0;
     font-size: 90%;
 }
@@ -2454,7 +2454,7 @@ span.cell-float-right {float: right;}
     padding: 3px 3px 5px 6px;
     border-bottom-left-radius: 3px;
     color: white;
-    box-shadow: -1px -1px 0px 3px var(--pp-white);
+    box-shadow: -1px -1px 0 3px var(--pp-white);
     z-index: 1001;
 }
 
