@@ -76,13 +76,14 @@ section.page .page-header > ul {
 /* .fa-picture-o {} */
 /* .fa-file {} */
 /* .fa-file-o {} */
-.fa-file-pdf-o {color: #FA0F00;}
-.fa-file-excel-o {color: #007237;}
-.fa-file-word-o {color: #285397;}
-.fa-file-powerpoint-o {color: #B93214;}
-.fa-file-archive-o {color: #B37900;}
-.fa-html5 {color: #E14D25;}
-.fa-css3 {color: #1862B6;}
+.fa-file-pdf-o { color: #FA0F00; }
+.fa-file-excel-o { color: #007237; }
+.fa-file-word-o { color: #285397; }
+.fa-file-powerpoint-o { color: #B93214; }
+.fa-file-archive-o { color: #B37900; }
+.fa-html5 { color: #E14D25; }
+.fa-css3 { color: #1862B6; }
+
 .fa-font {
     border: 1px solid #000000;
     border-radius: var(--border-radius-kbcss);
@@ -719,13 +720,13 @@ code {
 /* FOR BLOCKQUOTE TEXT - Leave `width` as auto because of board hover tooltip */
 blockquote {
     /* color:  #000000 !important; */
+    /* font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
     color: #555555;
     font-size: 1.1em;
     width: auto;
     margin: 5px auto;
     font-style: italic;
     font-family: "Open Sans", sans-serif;
-    /* font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
     padding: 1.2em 30px 1.2em 75px !important;
     border-left: 8px solid rgb(168, 207, 255) !important;
     line-height: 1.6;
