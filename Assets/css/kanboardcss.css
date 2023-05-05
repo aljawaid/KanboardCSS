@@ -1801,6 +1801,8 @@ span.notification a:hover {
 .summary-title strong {
     width: 130px;
     display: inline-block;
+    /* min-width: 120px; */
+    /* width: unset; */
 }
 
 .markdown .endofmonth {
@@ -2346,11 +2348,6 @@ span.cell-float-right {
 
 .board-column-expanded {
     font-size: 90%;
-}
-
-.summary-title strong {
-    min-width: 120px;
-    width: unset;
 }
 
 ::selection {
