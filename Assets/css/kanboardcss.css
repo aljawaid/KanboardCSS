@@ -68,20 +68,21 @@ section.page .page-header > ul {
 }
 
 /*** FILE TYPES ***/
-.fa-file-pdf-o {color: #FA0F00;}
 /* .fa-file-image-o {} */
+/* .fa-file-audio-o {} */
+/* .fa-file-video-o {} */
+/* .fa-file-code-o {} */
+/* .fa-file-text-o {} */
+/* .fa-picture-o {} */
+/* .fa-file {} */
+/* .fa-file-o {} */
+.fa-file-pdf-o {color: #FA0F00;}
 .fa-file-excel-o {color: #007237;}
 .fa-file-word-o {color: #285397;}
 .fa-file-powerpoint-o {color: #B93214;}
 .fa-file-archive-o {color: #B37900;}
-/* .fa-file-audio-o {} */
-/* .fa-file-video-o {} */
 .fa-html5 {color: #E14D25;}
-/* .fa-file-code-o {} */
 .fa-css3 {color: #1862B6;}
-/* .fa-picture-o {} */
-/* .fa-file {} */
-/* .fa-file-text-o {} */
 .fa-font {
     border: 1px solid #000000;
     border-radius: var(--border-radius-kbcss);
@@ -89,7 +90,6 @@ section.page .page-header > ul {
     padding-bottom: 1px;
     width: 18px !important;
 }
-/* .fa-file-o {} */
 
 .fa-cog, .fa-caret-down {
     color: #4D4D4D;
@@ -340,17 +340,17 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 }
 
 header h1 {
+    /* padding-left: 10px; */
+    padding-left: 0;
     font-size: 24px;
 	color: white;
     font-weight: 600;
-    /* padding-left: 10px; */
-    padding-left: 0;
 }
 
 header h1 a {
-	color: white;
     /* padding-left: 10px; */
     padding-left: 0;
+	color: white;
 }
 
 /* ## FOR KANBOARD 1.2.5 ###################################### */
@@ -387,10 +387,10 @@ header .board-selector-container {
 }
 
 .page {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
     /* margin-left: 20px; */
     /* margin-right: 20px; */
+	margin-left: 0 !important;
+	margin-right: 0 !important;
     clear: both;
 }
 
@@ -399,14 +399,14 @@ h1 {
 }
 
 body {
+    /* font-family: "Open Sans", "Helvetica", Arial, sans-serif; */
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     padding-bottom: 0;
     padding-top: 0;
     color: #000000 !important;
-    /* font-family: "Open Sans", "Helvetica", Arial, sans-serif; */
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
@@ -583,19 +583,19 @@ div.task-board-recent {
 
 /* GITLAB LOOKALIKE */
 .board-column-header {
-    width: initial;
     /* border-top-left-radius: 2px; */
     /* border-top-right-radius: 2px; */
     /* background: #FAFAFA; */
     /* border: 1px solid #E5E5E5; */
+    /* border-bottom: 1px solid #E5E5E5; */
+    /* z-index: -42; */
+    /* padding: 12px; */
+    width: initial;
     position: relative;
     margin: 0;
     font-size: 16px;
-    /* border-bottom: 1px solid #E5E5E5; */
     border: 2px solid #59595930 !important;
-    /* z-index: -42; */
     padding: 6px;
-    /* padding: 12px; */
     background: var(--button-default-border-color-focus);
     border-radius: 2px;
     border-bottom-left-radius: 0 !important;
@@ -618,29 +618,29 @@ div.task-board-recent {
 
 /* HOLDER OF TASKS */
 tr.board-swimlane > td {
+    /* background: #FAFAFA; */
 	/* background-color: #FAFAFA; */
-    background: #59595930;
 	/* border-radius: 13px; */
+    /* border-radius: 0 0 10px 10px; */
+    border-radius: 0 0 2px 2px;
+    background: #59595930;
     -webkit-flex: 1;
     flex: 1;
     height: 400px;
     margin-bottom: 0;
     padding: 5px;
     overflow-x: hidden;
-    /* background: #FAFAFA; */
     border: 1px solid #E5E5E5;
-    /* border-radius: 0 0 10px 10px; */
-    border-radius: 0 0 2px 2px;
 }
 
 th.board-swimlane-header {
+	/* line-height: 22px; */
+    line-height: unset;
 	background-color: white;
 	border-bottom: 0 solid #CCCCCC;
 	border-top: 0 solid #CCCCCC;
 	border-left: 0 solid #CCCCCC;
 	font-size: 14px;
-	/* line-height: 22px; */
-    line-height: unset;
 }
 
 /* THE SINGLE TASKS LAYOUT */
@@ -701,29 +701,29 @@ th.board-swimlane-header {
 /* FOR INLINE CODE */
 code {
     /* margin: 0; */
-    margin: auto 3px;
-    padding: 1px 3px 3px 3px;
     /* padding: 2px .4em; */
-    color: #BB092D;
     /* color: #000000; */
     /* font-size: 85%; */
     /* background-color: rgba(27, 31, 35, .22); */
+    /* font-family: Tahoma, sans-serif; */
+    margin: auto 3px;
+    padding: 1px 3px 3px 3px;
+    color: #BB092D;
     background-color: rgba(27, 31, 35, .32);
     font-size: .9rem;
     font-family: monospace;
-    /* font-family: Tahoma, sans-serif; */
     letter-spacing: .8rem;
     border-radius: var(--border-radius-kbcss);
 }
 
 /* FOR BLOCKQUOTE TEXT - Leave `width` as auto because of board hover tooltip */
 blockquote {
+    /* color:  #000000 !important; */
+    color: #555555;
     font-size: 1.1em;
     width: auto;
     margin: 5px auto;
     font-style: italic;
-    color: #555555;
-    /* color:  #000000 !important; */
     font-family: "Open Sans", sans-serif;
     /* font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
     padding: 1.2em 30px 1.2em 75px !important;
@@ -754,6 +754,7 @@ blockquote span {
     font-weight: bold;
     margin-top: 1em;
 }
+
 /* END BLOCKQUOTE TEXT */
 
 /* INCREASE INFO CIRCLE SIZE IN TOOLTIP */
@@ -1212,6 +1213,7 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
     border-radius: var(--border-radius-kbcss) !important;
 }
 
+/* HIDE SCROLL BARS IN BOARD MENU LIST :  USE 'overflow: auto !important;' IN '#select-dropdown-menu' */
 #select-dropdown-menu {
     border: .16em inset var(--button-blue-border-gradient-match) !important;
     accent-color:  var(--pp-red-alt-2);
@@ -1219,9 +1221,7 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
     border-top-right-radius: 0 !important;
     border-top: 0 !important;
     width: 281px !important;
-    /* HIDE SCROLL BARS IN BOARD MENU LIST */
     overflow: auto !important;
-    /* END HIDE SCROLL BARS IN BOARD MENU LIST */
 }
 
 #TaskIDSearch {
@@ -1270,6 +1270,7 @@ select {
     border-radius: var(--border-radius-kbcss);
     border-width: 1px;
 }
+
 /* END FIELD BORDERS  */
 
 .markdown > h1 {
@@ -1639,10 +1640,10 @@ span.notification a:hover {
 }
 
 .table-list-row {
-    border-right: 0;
-    padding-top: 10px;
     /* padding-bottom: 10px; */
     padding-bottom: 7px;
+    border-right: 0;
+    padding-top: 10px;
     position: relative;
 }
 
@@ -1794,10 +1795,10 @@ span.notification a:hover {
 }
 
 .summary-title strong {
-    width: 130px;
-    display: inline-block;
     /* min-width: 120px; */
     /* width: unset; */
+    width: 130px;
+    display: inline-block;
 }
 
 .markdown .endofmonth {
@@ -2196,8 +2197,8 @@ tbody tr.disabled {
 }
 
 .page-header h2 {
-    border-bottom: 2px outset var(--button-blue-border-gradient-match);
     /* border-bottom: none; */
+    border-bottom: 2px outset var(--button-blue-border-gradient-match);
 }
 
 .file-thumbnails > .file-thumbnail img {
@@ -2312,12 +2313,12 @@ span.cell-float-right {
 }
 
 #ProjectOverview > span {
+    /* padding: 3px 0 4px 2px; */
     padding: 3px 0 0 0;
     display: inline-block;
     margin-block: 3px 0;
     padding-block: 0;
     font-size: 90%;
-    /* padding: 3px 0 4px 2px; */
 }
 
 .board-column-expanded {
