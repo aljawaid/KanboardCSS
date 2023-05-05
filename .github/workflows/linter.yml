@@ -74,6 +74,7 @@ jobs:
           # LOG_FILE: code-linter.log
           # LOG_LEVEL: WARN
           ACTIONS_STEP_DEBUG: true
+          SUPPRESS_POSSUM: true
           VALIDATE_CSS: true
           VALIDATE_GITHUB_ACTIONS: true
           VALIDATE_GITLEAKS: true
