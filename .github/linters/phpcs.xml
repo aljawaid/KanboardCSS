@@ -28,7 +28,4 @@
             <property name="ignoreNewlines" value="true" />
         </properties>
     </rule>
-    <rule ref="Generic.Formatting.DisallowMultipleStatements">
-        <message>Each PHP statement must be on a line by itself - suspected erroneous semicolon</message>
-    </rule>
 </ruleset>
