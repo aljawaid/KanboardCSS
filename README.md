@@ -65,6 +65,12 @@ Refresh the page or restart your browser.
 
 ## Installation & Compatibility
 
+<p align="left">
+    <a href="https://github.com/aljawaid/KanboardCSS/actions/workflows/linter.yml">
+        <img src="https://github.com/aljawaid/KanboardCSS/actions/workflows/linter.yml/badge.svg?branch=master&event=push" alt="Code Scanning" title="View Test">
+    </a>
+</p>
+
 <details>
     <summary><strong>Installation</strong></summary>
 
