@@ -44,12 +44,6 @@
         "value-list-comma-space-after": "always",
         "color-function-notation": "legacy",
         "number-max-precision": 5,
-        "value-no-vendor-prefix": [
-            true,
-            {
-                "severity": "warning"
-            }
-        ],
         "value-keyword-case": [
             "lower",
             {
@@ -71,12 +65,8 @@
             }
         ],
         "property-no-vendor-prefix": null,
-        "at-rule-no-vendor-prefix": [
-            true,
-            {
-                "severity": "warning"
-            }
-        ],
+        "at-rule-no-vendor-prefix": null,
+        "value-no-vendor-prefix": null,
         "declaration-no-important": [
             true,
             {
