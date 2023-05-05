@@ -2,7 +2,8 @@
 
 <ruleset name="super-linter">
     <description>The default coding standard for usage with GitHub Super-Linter. It just includes PSR12.</description>
-    <arg name="report" value="summary"/>
+    <arg name="colors"/>
+    <arg name="report_width" value="auto"/>
     <rule ref="PSR12" />
     <rule ref="Generic.Files.LineLength.MaxExceeded">
         <type>warning</type>
