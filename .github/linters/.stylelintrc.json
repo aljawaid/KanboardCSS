@@ -11,12 +11,7 @@
             }
         ],
         "font-family-name-quotes": "always-where-recommended",
-        "font-weight-notation": [
-            "numeric",
-            {
-                "severity": "warning"
-            }
-        ],
+        "font-weight-notation": "named-where-possible",
         "font-family-no-missing-generic-family-keyword": [
             true,
             {
@@ -75,12 +70,7 @@
                 "severity": "warning"
             }
         ],
-        "property-no-vendor-prefix": [
-            true,
-            {
-                "severity": "warning"
-            }
-        ],
+        "property-no-vendor-prefix": null,
         "at-rule-no-vendor-prefix": [
             true,
             {
