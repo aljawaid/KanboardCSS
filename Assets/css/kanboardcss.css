@@ -58,12 +58,6 @@ summary i {
     width: 40px;
 }
 
-/*
-#main .page-header, section.page > .page-header, section.page > div.margin-bottom, section.page > div.table-list {
-    margin: var(--header-page-margin-kbcss);
-}
-*/
-
 section.page .page-header > ul {
     margin: var(--header-page-margin-kbcss);
     margin-bottom: 0 !important;
@@ -108,7 +102,7 @@ td a.dropdown-menu i {
 kbd {
     padding: .1em .3em;
     font-size: 100%;
-    font-weight: 700;
+    font-weight: bold;
     color: #FFFFFF;
     background-color: #212529;
     border-radius: var(--border-radius-kbcss);
@@ -371,18 +365,17 @@ header .board-selector-container {
 /* ############################################################ */
 
 .page-header {
-    padding: 0 0 3px 15px;
-    background-color: #0E0E0E4D;
+    /* padding: 0 0 3px 15px; */
+    /* background-color: #0E0E0E4D; */
     font-size: small;
+    padding: 0 0 5px 2px;
+    background-color: white;
+    margin-top: 10px;
 }
 
 .sidebar-content > .page-header {
     padding: 5px 0 5px 15px;
     border-radius: 5px;
-}
-
-.page-header h2 {
-    border-bottom: none;
 }
 
 .project-header {
@@ -402,7 +395,7 @@ header .board-selector-container {
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: normal;
 }
 
 body {
@@ -424,7 +417,7 @@ body {
 
 .sidebar > ul a {
     color: var(--pp-grey);
-    font-weight: 400;
+    font-weight: normal;
 }
 
 .sidebar {
@@ -686,13 +679,15 @@ th.board-swimlane-header {
     font-size: 14px;
     display: inline;
     margin-bottom: 5px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 /* SIZE OF COLUMN WHEN HIDDEN (MINIMIZED) */
 #board th.board-column-header-collapsed {
-    width: 5px;
-    min-width: 5px;
+    /* width: 5px; */
+    /* min-width: 5px; */
+    width: 22px;
+    min-width: 22px;
 }
 
 /* FOR LINKS IN TASK DESCRIPTIONS */
@@ -756,7 +751,7 @@ blockquote span {
     display: block;
     color: #333333;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bold;
     margin-top: 1em;
 }
 /* END BLOCKQUOTE TEXT */
@@ -780,7 +775,7 @@ blockquote span {
 /* ALERT */
 .alert {
 	margin-bottom: 60px;
-    font-weight: 700;
+    font-weight: bold;
     border: 2px solid;
 	font-style: italic;
     top: 50px;
@@ -990,7 +985,7 @@ td::-webkit-scrollbar-thumb {
 
 .sidebar > .sidebar-summary > ul li.active a, .sidebar > .sidebar-actions > ul li.active a {
     color: var(--color-primary);
-    font-weight: 700;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -1001,7 +996,7 @@ td::-webkit-scrollbar-thumb {
 .sidebar > .sidebar-summary > ul a, .sidebar > .sidebar-actions > ul a {
     text-decoration: none;
     color: var(--color-primary);
-    font-weight: 400;
+    font-weight: normal;
 }
 
 .sidebar > .sidebar-summary > ul a:hover, .sidebar > .sidebar-summary > ul li.active a:hover, .sidebar > .sidebar-actions > ul a:hover, .sidebar > .sidebar-actions > ul li.active a:hover {
@@ -1023,7 +1018,7 @@ td::-webkit-scrollbar-thumb {
 }
 
 .sidebar h2 {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .sidebar > .sidebar-summary > ul li.active a::after {
@@ -1132,14 +1127,10 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
     font-size: 1.3em;
 }
 
-#ProjectOverview > span {
-    padding: 3px 0 4px 2px;
-}
-
-#ProjectOverview span .overview-columns, #ProjectOverview span .overview-tasks {
+#ProjectOverview span .overview-columns {
     padding: 3px 2px 5px 2px;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 #ProjectOverview span .overview-columns i, #ProjectOverview span .overview-tasks strong i {
@@ -1171,6 +1162,8 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
     display: inline-block;
     padding-top: .5rem;
     padding-bottom: .13rem !important;
+    font-size: 1em;
+    font-weight: normal;
 }
 
 .proj-details {
@@ -1290,7 +1283,7 @@ select {
 /* TASK PRIORITIES ################################################################ */
 .task-priority-1 {
     color: #000000;
-    font-weight: 700;
+    font-weight: bold;
     background: #FF000054;
     opacity: 1 !important;
     padding: 2px 3px;
@@ -1299,7 +1292,7 @@ select {
 
 .task-priority-2 {
     color: #000000;
-    font-weight: 700;
+    font-weight: bold;
     background: #FF000054;
     opacity: 1 !important;
     padding: 2px 3px;
@@ -1308,7 +1301,7 @@ select {
 
 .task-priority-3 {
     color: #000000;
-    font-weight: 700;
+    font-weight: bold;
     background: #00800078;
     opacity: 1 !important;
     padding: 2px 3px;
@@ -1317,7 +1310,7 @@ select {
 
 .task-priority-4 {
     color: #000000;
-    font-weight: 700;
+    font-weight: bold;
     background: #00800078;
     opacity: 1 !important;
     padding: 2px 3px;
@@ -1326,7 +1319,7 @@ select {
 
 .task-priority-5 {
     color: #000000;
-    font-weight: 700;
+    font-weight: bold;
     background: #FFA5006E;
     opacity: 1 !important;
     padding: 2px 3px;
@@ -1438,7 +1431,7 @@ article.markdown {
 }
 
 .task-general-summary-title {
-    font-weight: 700;
+    font-weight: bold;
     text-transform: uppercase;
     color: var(--pp-red-alt-2);
 }
@@ -1563,7 +1556,7 @@ summary::marker {
 
 .board-column-header-task-count {
     color: var(--pp-white) !important;
-    font-weight: 700 !important;
+    font-weight: bold !important;
     font-size: 90%;
     background-color: var(--pp-red-alt-2);
     border-radius: var(--border-radius-kbcss);
@@ -1576,7 +1569,7 @@ summary::marker {
 
 .board-swimlane-column-header-task-count {
     color: var(--pp-white) !important;
-    font-weight: 700 !important;
+    font-weight: bold !important;
     font-size: 90%;
     background-color: var(--pp-red-alt-2);
     border-radius: var(--border-radius-kbcss);
@@ -1648,7 +1641,9 @@ span.notification a:hover {
 .table-list-row {
     border-right: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+    padding-bottom: 7px;
+    position: relative;
 }
 
 .sidebar-content .table-list-row.table-border-left {
@@ -1697,7 +1692,7 @@ span.notification a:hover {
 
 .priority-table-new-list-title strong {
     text-align: center !important;
-    font-weight: 700 !important;
+    font-weight: bold !important;
     color: #000000 !important;
 }
 
@@ -1738,7 +1733,7 @@ span.notification a:hover {
 #BadgeOpen {
     background-color: var(--pp-green);
     color: #EEEEEE;
-    font-weight: 700;
+    font-weight: bold;
     border: 2px solid var(--pp-green);
     border-radius: var(--border-radius-kbcss);
     padding-left: 3px;
@@ -1748,7 +1743,7 @@ span.notification a:hover {
 #BadgeClosed {
     background-color: var(--pp-grey);
     color: #EEEEEE;
-    font-weight: 700;
+    font-weight: bold;
     border: 2px solid var(--pp-grey);
     border-radius: var(--border-radius-kbcss);
     padding-left: 3px;
@@ -1758,7 +1753,7 @@ span.notification a:hover {
 #ToggleOffTask {
     background-color: var(--pp-grey);
     color: #EEEEEE;
-    font-weight: 700;
+    font-weight: bold;
     border: 2px solid var(--pp-grey);
     border-radius: var(--border-radius-kbcss);
     padding-left: 1px;
@@ -1776,7 +1771,7 @@ span.notification a:hover {
 #RecurringPending, #RecurringProcessed {
     text-transform: uppercase;
     font-size: .9em;
-    font-weight: 700;
+    font-weight: bold;
     color: var(--color-primary);
     border: 1px solid var(--pp-orange);
     display: initial;
@@ -1812,13 +1807,13 @@ span.notification a:hover {
 }
 
 .markdown .endofmonth h3 {
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .markdown .endofmonthbalance {
     font-size: 1.2em;
     color:darkred;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .table-list-wrapper {
@@ -1829,7 +1824,7 @@ span.notification a:hover {
 }
 
 .table-list-row .table-list-details strong {
-    font-weight: 700 !important;
+    font-weight: bold !important;
 }
 
 .wrapper-pending, .wrapper-pending-payments, .wrapper-waiting-for-payments, .wrapper-pending-requests, .wrapper-backlog, .wrapper-waiting-for-payment {
@@ -1881,13 +1876,13 @@ span.notification a:hover {
 }
 
 .table-list-row .table-list-title {
-    font-weight: 700 !important;
+    font-weight: bold !important;
     font-size: 1.3em;
 }
 
 .table-list-row .table-list-details {
     color: var(--pp-black) !important;
-    font-weight: 400 !important;
+    font-weight: normal !important;
     margin-top: 5px;
 }
 
@@ -1911,6 +1906,7 @@ span.task-icon-age-total, span.task-icon-age-column {
 
 span.task-icon-age-column {
     border-left: 0 !important;
+    padding: 1px 3px 1px 5px !important;
 }
 
 .wiki-table-row:hover {
@@ -1944,7 +1940,7 @@ table.metadata-table > tbody > tr > td {
 }
 
 .task-list-avatars .task-avatar-assignee {
-    font-weight: 400 !important;
+    font-weight: normal !important;
     color: initial !important;
 }
 
@@ -1965,17 +1961,12 @@ table.metadata-table > tbody > tr > td {
     top: 10px;
 }
 
-.table-list-row {
-    padding-bottom: 7px;
-    position: relative;
-}
-
 .comments .text-editor textarea, .comments .text-editor .text-editor-preview-area {
     min-height: 175px !important;
 }
 
 #TaskReference {
-    font-weight: 700;
+    font-weight: bold;
     border: 2px dashed #000000;
     padding: 0 3px;
     background-color: rgb(255, 251, 0);
@@ -2020,11 +2011,6 @@ tbody tr.disabled {
 
 .metadata-table {
     margin-bottom: 0;
-}
-
-#board th.board-column-header-collapsed {
-    width: 22px !important;
-    min-width: 22px !important;
 }
 
 .total-score-swimlanes {
@@ -2096,7 +2082,7 @@ tbody tr.disabled {
     margin-top: .5rem;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-weight: 700;
+    font-weight: bold;
     color: #665858;
 }
 
@@ -2122,7 +2108,7 @@ tbody tr.disabled {
 .public-board-title {
     font-size: 1.5em;
     color: #665858;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .public-board-desc {
@@ -2130,7 +2116,7 @@ tbody tr.disabled {
 }
 
 .public-warning {
-    font-weight: 700;
+    font-weight: bold;
     font-size: .8rem;
     color: #4D4D4D;
 }
@@ -2152,7 +2138,7 @@ tbody tr.disabled {
 .public-task-link {
     text-transform: uppercase;
     font-size: .9em;
-    font-weight: 700;
+    font-weight: bold;
     color: var(--color-primary);
     background: var(--button-blue-border-gradient);
     border: 1px solid var(--button-blue-border-gradient-match);
@@ -2199,10 +2185,6 @@ tbody tr.disabled {
     opacity: .3;
 }
 
-span.task-icon-age-column {
-    padding: 1px 3px 1px 5px !important;
-}
-
 .task-summary-container, .sidebar-content > .page-header {
     border-radius: var(--border-radius-kbcss) !important;
 }
@@ -2214,13 +2196,8 @@ span.task-icon-age-column {
 }
 
 .page-header h2 {
-    border-bottom: 2px outset var(--button-blue-border-gradient-match) !important;
-}
-
-.page-header {
-    padding: 0 0 5px 2px !important;
-    background-color: white !important;
-    margin-top: 10px;
+    border-bottom: 2px outset var(--button-blue-border-gradient-match);
+    /* border-bottom: none; */
 }
 
 .file-thumbnails > .file-thumbnail img {
@@ -2262,7 +2239,7 @@ span.task-icon-age-column {
     -moz-appearance: none;
     appearance: none;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: normal;
     cursor: pointer;
     display: inline-block;
     border-radius: var(--border-radius-kbcss);
@@ -2340,10 +2317,7 @@ span.cell-float-right {
     margin-block: 3px 0;
     padding-block: 0;
     font-size: 90%;
-}
-
-#ProjectOverview span .overview-tasks {
-    padding-bottom: .23rem;
+    /* padding: 3px 0 4px 2px; */
 }
 
 .board-column-expanded {
@@ -2415,7 +2389,7 @@ span.cell-float-right {
     .public-board-title {
         font-size: 1em;
         color: #665858;
-        font-weight: 700;
+        font-weight: bold;
     }
 
     .public-header > .w3-wrapper:nth-child(3) {
