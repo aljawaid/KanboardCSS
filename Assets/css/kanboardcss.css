@@ -105,11 +105,6 @@ td a.dropdown-menu i {
     color: #4D4D4D !important;
 }
 
-blockquote {
-    color:  #000000 !important;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}
-
 kbd {
     padding: .1em .3em;
     font-size: 100%;
@@ -310,6 +305,8 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
 }
 
 #board-container td {
+    /* z-index: -500; */
+    position: relative;
     padding: 5px 0;
     border-top: 1px solid #E5E5E5;
     border-left: 1px solid #E5E5E5;
@@ -352,12 +349,14 @@ header h1 {
     font-size: 24px;
 	color: white;
     font-weight: 600;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-left: 0;
 }
 
 header h1 a {
 	color: white;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    padding-left: 0;
 }
 
 /* ## FOR KANBOARD 1.2.5 ###################################### */
@@ -397,6 +396,9 @@ header .board-selector-container {
 .page {
 	margin-left: 0 !important;
 	margin-right: 0 !important;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    clear: both;
 }
 
 h1 {
@@ -414,12 +416,6 @@ body {
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-}
-
-.page {
-    margin-left: 20px;
-    margin-right: 20px;
-    clear: both;
 }
 
 .ui-sortable {
@@ -597,14 +593,22 @@ div.task-board-recent {
     width: initial;
     /* border-top-left-radius: 2px; */
     /* border-top-right-radius: 2px; */
-    background: #FAFAFA;
-    border: 1px solid #E5E5E5;
-    border-radius: 2px;
+    /* background: #FAFAFA; */
+    /* border: 1px solid #E5E5E5; */
     position: relative;
     margin: 0;
-    padding: 12px;
     font-size: 16px;
-    border-bottom: 1px solid #E5E5E5;
+    /* border-bottom: 1px solid #E5E5E5; */
+    border: 2px solid #59595930 !important;
+    /* z-index: -42; */
+    padding: 6px;
+    /* padding: 12px; */
+    background: var(--button-default-border-color-focus);
+    border-radius: 2px;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: var(--border-radius-kbcss) !important;
+    border-top-left-radius: var(--border-radius-kbcss) !important;
 }
 
 .task-board-age {
@@ -621,9 +625,9 @@ div.task-board-recent {
 
 /* HOLDER OF TASKS */
 tr.board-swimlane > td {
-	background-color: #FAFAFA;
+	/* background-color: #FAFAFA; */
+    background: #59595930;
 	/* border-radius: 13px; */
-    /* Gitlab */
     -webkit-flex: 1;
     flex: 1;
     height: 400px;
@@ -632,8 +636,8 @@ tr.board-swimlane > td {
     overflow-x: hidden;
     /* background: #FAFAFA; */
     border: 1px solid #E5E5E5;
-    border-radius: 0 0 10px 10px;
-    /* Gitlab end */
+    /* border-radius: 0 0 10px 10px; */
+    border-radius: 0 0 2px 2px;
 }
 
 th.board-swimlane-header {
@@ -642,7 +646,8 @@ th.board-swimlane-header {
 	border-top: 0 solid #CCCCCC;
 	border-left: 0 solid #CCCCCC;
 	font-size: 14px;
-	line-height: 22px;
+	/* line-height: 22px; */
+    line-height: unset;
 }
 
 /* THE SINGLE TASKS LAYOUT */
@@ -700,13 +705,20 @@ th.board-swimlane-header {
 
 /* FOR INLINE CODE */
 code {
-    margin: 0;
-    padding: 2px .4em;
+    /* margin: 0; */
+    margin: auto 3px;
+    padding: 1px 3px 3px 3px;
+    /* padding: 2px .4em; */
+    color: #BB092D;
+    /* color: #000000; */
+    /* font-size: 85%; */
+    /* background-color: rgba(27, 31, 35, .22); */
     background-color: rgba(27, 31, 35, .32);
+    font-size: .9rem;
+    font-family: monospace;
+    /* font-family: Tahoma, sans-serif; */
+    letter-spacing: .8rem;
     border-radius: var(--border-radius-kbcss);
-    color: #000000;
-    font-family: Tahoma, sans-serif;
-    font-size: 85%;
 }
 
 /* FOR BLOCKQUOTE TEXT - Leave `width` as auto because of board hover tooltip */
@@ -714,9 +726,11 @@ blockquote {
     font-size: 1.1em;
     width: auto;
     margin: 5px auto;
-    font-family: "Open Sans", sans-serif;
     font-style: italic;
     color: #555555;
+    /* color:  #000000 !important; */
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
     padding: 1.2em 30px 1.2em 75px !important;
     border-left: 8px solid rgb(168, 207, 255) !important;
     line-height: 1.6;
@@ -747,24 +761,20 @@ blockquote span {
 }
 /* END BLOCKQUOTE TEXT */
 
-/* HIDE SCROLL BARS IN BOARD MENU LIST */
-#select-dropdown-menu {
-    overflow: auto !important;
-}
-
-/* END HIDE SCROLL BARS IN BOARD MENU LIST */
-
 /* INCREASE INFO CIRCLE SIZE IN TOOLTIP */
 .tooltip .fa-info-circle {
 	font-size: 1.3em !important;
 	vertical-align: middle !important;
+    color: #737272;
 }
+
 /* END INCREASE INFO CIRCLE SIZE IN TOOLTIP */
 
 /* INCREASE PAGE HEADER TEXT SIZE */
 .page-header ul li {
     font-size: 1.2em;
 }
+
 /* END INCREASE PAGE HEADER TEXT SIZE */
 
 /* ALERT */
@@ -781,6 +791,7 @@ blockquote span {
     animation: fadeout 10s linear forwards;
     box-shadow: 0 0 20px 6px #000000;
 }
+
 /* END ALERT */
 
 /* REQUIRED FIELD ASTERISK - `padding-top` for browser password addon spacing compatibility */
@@ -790,12 +801,14 @@ blockquote span {
     vertical-align: bottom;
     padding-top: 5px;
 }
+
 /* END REQUIRED FIELD ASTERISK  */
 
 /* TASK LIMIT */
 .board-task-list-limit {
     background-color: #DF5353 !important;
 }
+
 /* END TASK LIMIT */
 
 .action-menu {
@@ -806,10 +819,6 @@ blockquote span {
 
 .action-menu:hover, .action-menu:focus, .views a:hover {
     color: #EEEEEE !important;
-}
-
-ul#BoardViews > li {
-    color: #EEEEEE;
 }
 
 a .fa {
@@ -838,6 +847,7 @@ ul#BoardViews > li.active a, ul#BoardViews > li.active a > i {
 }
 
 ul#BoardViews > li {
+    color: #EEEEEE;
     background: var(--button-blue-gradient);
     text-transform: uppercase;
     border-color: var(--button-blue-border-gradient-match);
@@ -1100,23 +1110,6 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
     margin-left: -5px;
 }
 
-.board-column-header {
-    border: 2px solid #59595930 !important;
-    border-bottom: 2px solid #59595930 !important;
-    /* z-index: -42; */
-    padding: 6px !important;
-    background: var(--button-default-border-color-focus) !important;
-    border-bottom-left-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    border-top-right-radius: var(--border-radius-kbcss) !important;
-    border-top-left-radius: var(--border-radius-kbcss) !important;
-}
-
-#board-container td {
-    /* z-index: -500; */
-    position: relative;
-}
-
 .filter-box {
     max-width: unset !important;
 }
@@ -1126,17 +1119,6 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
     z-index: -1;
     position: relative;
 } */
-
-code {
-    background-color: rgba(27, 31, 35, .22);
-    font-size: .9rem;
-    font-family: monospace;
-    letter-spacing: .8rem;
-    color: #BB092D;
-    margin: auto 3px;
-    padding: 1px 3px 3px 3px;
-    border-radius: var(--border-radius-kbcss);
-}
 
 #task-view > div > details > summary, #task-summary > details > summary {
     border-block-width: medium;
@@ -1244,6 +1226,9 @@ code {
     border-top-right-radius: 0 !important;
     border-top: 0 !important;
     width: 281px !important;
+    /* HIDE SCROLL BARS IN BOARD MENU LIST */
+    overflow: auto !important;
+    /* END HIDE SCROLL BARS IN BOARD MENU LIST */
 }
 
 #TaskIDSearch {
@@ -1293,17 +1278,6 @@ select {
     border-width: 1px;
 }
 /* END FIELD BORDERS  */
-
-/* REQUIRED FIELD ASTERISK  */
-
-.form-required {
-    transform: scale(2);
-    display: inline-block;
-    vertical-align: bottom;
-    padding-top: 5px;
-}
-
-/* END REQUIRED FIELD ASTERISK  */
 
 .markdown > h1 {
     color: unset !important;
@@ -1406,10 +1380,6 @@ input[type="number"]::placeholder, input[type="date"]::placeholder, input[type="
     color: var(--pp-black) !important;
 }
 
-.tooltip .fa-info-circle {
-    color: #737272;
-}
-
 header h1 .tooltip {
     opacity: 1 !important;
     display: inline-flex;
@@ -1417,15 +1387,6 @@ header h1 .tooltip {
 
 header h1 .tooltip .fa-info-circle {
     color: white;
-}
-
-
-tr.board-swimlane > td {
-    background: #59595930 !important;
-}
-
-tr.board-swimlane > td {
-    border-radius: 0 0 2px 2px !important;
 }
 
 .board-task-list > div {
@@ -1455,6 +1416,7 @@ tr.board-swimlane > td {
     margin-top: 0 auto auto auto;
     border: 3px dashed #007AC9;
     border-radius: var(--border-radius-kbcss);
+    vertical-align: bottom;
 }
 
 .summary-title span {
@@ -1498,10 +1460,6 @@ article.markdown {
     margin-left: 5px;
 }
 
-.markdown img {
-    vertical-align: bottom;
-}
-
 del {
     text-decoration: line-through;
     text-decoration-color: #B71234;
@@ -1513,14 +1471,6 @@ td code {
     word-wrap: anywhere;
     max-width: 597px;
     display: inline-block;
-}
-
-header h1 a {
-    padding-left: 0 !important;
-}
-
-header h1 {
-    padding-left: 0 !important;
 }
 
 .acc-subtasks-title i {
@@ -1622,10 +1572,6 @@ summary::marker {
     margin: 0 3px 2px 2px;
     cursor: context-menu;
     display: inline-block;
-}
-
-th.board-swimlane-header {
-    line-height: unset !important;
 }
 
 .board-swimlane-column-header-task-count {
