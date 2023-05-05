@@ -2,11 +2,34 @@
 
 <ruleset name="super-linter">
     <description>The default coding standard for usage with GitHub Super-Linter. It just includes PSR12.</description>
+    <arg name="report" value="summary"/>
     <rule ref="PSR12" />
     <rule ref="Generic.Files.LineLength.MaxExceeded">
         <type>warning</type>
     </rule>
     <rule ref="Generic.Files.LineLength.TooLong">
         <type>warning</type>
+    </rule>
+    <rule ref="Generic.Formatting.SpaceAfterCast">
+        <properties>
+            <property name="ignoreNewlines" value="true" />
+        </properties>
+    </rule>
+    <rule ref="Generic.Formatting.SpaceAfterNot">
+        <properties>
+            <property name="spacing" value="0" />
+            <property name="ignoreNewlines" value="true" />
+            <type>warning</type>
+        </properties>
+    </rule>
+    <rule ref="Generic.WhiteSpace.ArbitraryParenthesesSpacing">
+        <properties>
+            <property name="ignoreNewlines" value="true" />
+        </properties>
+    </rule>
+    <rule ref="Generic.Formatting.DisallowMultipleStatements">
+        <properties>
+            <message>Each PHP statement must be on a line by itself - suspected erroneous ';'</message>
+        </properties>
     </rule>
 </ruleset>
