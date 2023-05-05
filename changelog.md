@@ -1,6 +1,49 @@
 # Changelog
 
 
+## 3.5
+
+_(most recent changes are listed on top):_
+- NEW: Add Code Scanning Badge to README.md
+- FIX: Code Scanning: CSS Fixes
+- FIX: Code Scanning: Avoid Warnings
+- FIX: Code Scanning: Delete Duplicates
+- FIX: Code Scanning: Delete Duplicates
+- FIX: Code Scanning: Delete Duplicates
+- FIX: Code Scanning: CSS Fixes
+- FIX: Code Scanning: CSS Fixes
+- FIX: Code Scanning: CSS Fixes
+- FIX: Code Scanning: CSS Fixes
+- FIX: Code Scanning: CSS Fixes
+- FIX: Code Scanning: Major CSS Fixes
+- FIX: README Navigation Links for GitHub
+- FIX: Code Scanning: Expected empty line before rule
+- FIX: Code Scanning: Unexpected Unit
+- FIX: Move Archived Releases to `Releases`
+- FIX: Code Syntax - Unexpected leading zero
+- FIX: Code Syntax in Translations
+- FIX: Code Syntax in changelog.md
+- FIX: Anchor Link Position
+- FIX: Code Syntax
+- FIX: changelog.md
+- NEW: Add Footer Badges to README.md
+- NEW: Add Section Navigation Links to README.md
+- NEW: Add Badges to README.md
+- FIX: Add README Page Navigation Links
+- NEW: Add README Page Navigation Links
+- FIX: Content Flow for README.md
+- NEW: Create INSTALL.md
+- NEW: Add Download Badge to README.md
+- NEW: Stronger Alert Notification - also delay timeout to 10s instead of default 7s
+- NEW: Move Alerts to The Top of Screen
+- FIX: Task Sidebar Font Size
+- FIX: Sidebar Indicator & Alignment
+- FIX: Sidebar Font Weight
+- FIX: Sidebar was too restrictive
+- FIX: Alert - fixed alerts were auto-fading too
+- FIX: Remove Duplicate Code
+
+
 ## v3.1
 
 _(most recent changes are listed on top):_
