@@ -29,8 +29,6 @@
         </properties>
     </rule>
     <rule ref="Generic.Formatting.DisallowMultipleStatements">
-        <properties>
-            <message>Each PHP statement must be on a line by itself - suspected erroneous semicolon</message>
-        </properties>
+        <message>Each PHP statement must be on a line by itself - suspected erroneous semicolon</message>
     </rule>
 </ruleset>
