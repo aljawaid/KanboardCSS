@@ -7,9 +7,11 @@
     <rule ref="PSR12" />
     <rule ref="Generic.Files.LineLength.MaxExceeded">
         <type>warning</type>
+        <severity>3</severity>
     </rule>
     <rule ref="Generic.Files.LineLength.TooLong">
         <type>warning</type>
+        <severity>3</severity>
     </rule>
     <rule ref="Generic.Formatting.SpaceAfterCast">
         <properties>
