@@ -51,6 +51,8 @@ jobs:
         with:
           # Full git history is needed to get a proper
           # list of changed files within `super-linter`
+          # We will set fetch-depth: 0 to fetch all history for all branches
+          # If you hadn't done this, only a single commit would be fetched.
           fetch-depth: 0
 
       ################################
@@ -60,6 +62,7 @@ jobs:
         uses: github/super-linter/slim@v5
         # https://github.com/marketplace/actions/super-linter#environment-variables
         env:
+          # Change to 'true' to scan all files, 'false' for new or edited files
           VALIDATE_ALL_CODEBASE: false
           # Change to 'master' if your main branch differs
           DEFAULT_BRANCH: master
@@ -68,12 +71,14 @@ jobs:
           LINTER_RULES_PATH: .github/linters
           MARKDOWN_CONFIG_FILE: .markdownlint.json
           PHP_CONFIG_FILE: php.ini
+          YAML_CONFIG_FILE: .yaml-lint.yml
           FILTER_REGEX_EXCLUDE: (Releases.*|Screenshots.*)
           # ACTIONS_RUNNER_DEBUG: true
           # CREATE_LOG_FILE: true
           # LOG_FILE: code-linter.log
           # LOG_LEVEL: WARN
           ACTIONS_STEP_DEBUG: true
+          IGNORE_GITIGNORED_FILES: true
           SUPPRESS_POSSUM: true
           VALIDATE_CSS: true
           VALIDATE_GITHUB_ACTIONS: true
