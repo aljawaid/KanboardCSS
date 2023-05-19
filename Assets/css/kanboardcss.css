@@ -713,7 +713,7 @@ code {
     background-color: rgba(27, 31, 35, .32);
     font-size: .9rem;
     font-family: monospace;
-    letter-spacing: .8rem;
+    letter-spacing: .04rem;
     border-radius: var(--border-radius-kbcss);
 }
 
