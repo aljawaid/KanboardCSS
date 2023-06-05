@@ -2348,7 +2348,7 @@ span.cell-float-right {
     padding-left: 4px;
 }
 
-/* #### MODAL COSE BUTTON */
+/* #### MODAL CLOSE BUTTON */
 #modal-close-button {
     transform: scale(1.5);
     display: inline-block;
@@ -2358,16 +2358,21 @@ span.cell-float-right {
     background: var(--pp-red-alt-2);
     padding: 3px 3px 5px 6px;
     border-bottom-left-radius: 3px;
-    color: white;
     box-shadow: -1px -1px 0 3px var(--pp-white);
     z-index: 1001;
 }
 
-#modal-close-button:hover {
-    color: var(--pp-white) !important;
+#modal-close-button i {
+    color: var(--pp-white);
+    transition: var(--transition-kanboard-css);
 }
 
-/* #### END OF MODAL COSE BUTTON */
+#modal-close-button:hover i {
+    color: var(--pp-grey);
+    text-shadow: 0 0 1px var(--pp-white);
+}
+
+/* #### END OF MODAL CLOSE BUTTON */
 
 @media screen and (max-width: 500px) {
     .public-header {
