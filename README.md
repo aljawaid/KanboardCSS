@@ -93,7 +93,7 @@ Refresh the page or restart your browser.
 <details>
     <summary><strong>Translations</strong></summary>
 
-- English (UK), English (US), French, German, Spanish
+- English (UK), French, German, Spanish
 - _Starter template available_
 
 </details>
