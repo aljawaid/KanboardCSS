@@ -1,7 +1,18 @@
 # Changelog
 
 
-## 3.5
+## v3.6
+
+_(most recent changes are listed on top):_
+- FIX: Update Plugin Description to Mention FontSwitcher
+- FIX: Remove `en_US` Translations - all code is in `en_US` anyway
+- NEW: Add FontSwitcher Compatibility
+- FIX: Remove Font Dependability - use FontSwitcher to change fonts to avoid local limitations
+- FIX: Modal Close Button Display - fix hover effects
+- FIX: Letter Spacing for `code`
+
+
+## v3.5
 
 _(most recent changes are listed on top):_
 - NEW: Add Code Scanning Badge to README.md
