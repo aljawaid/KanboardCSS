@@ -8,13 +8,6 @@ _(most recent changes are listed on top):_
 - FIX: Code Scanning: CSS Fixes
 - FIX: Code Scanning: Avoid Warnings
 - FIX: Code Scanning: Delete Duplicates
-- FIX: Code Scanning: Delete Duplicates
-- FIX: Code Scanning: Delete Duplicates
-- FIX: Code Scanning: CSS Fixes
-- FIX: Code Scanning: CSS Fixes
-- FIX: Code Scanning: CSS Fixes
-- FIX: Code Scanning: CSS Fixes
-- FIX: Code Scanning: CSS Fixes
 - FIX: Code Scanning: Major CSS Fixes
 - FIX: README Navigation Links for GitHub
 - FIX: Code Scanning: Expected empty line before rule
@@ -94,7 +87,6 @@ _(most recent changes are listed on top):_
 
 _(most recent changes are listed on top):_
 - FIX: Rename Folder - Folder Consistency
-- FIX: Folder Consistency
 - FIX: Folder Consistency
 - Update archive - remove git code
 - Prepare 2023
@@ -198,7 +190,6 @@ _(most recent changes are listed on top):_
 
 ## v0.0.1
 
-_(most recent changes are listed on top):_
 - Initial release
 
 ---
