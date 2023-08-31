@@ -400,8 +400,6 @@ h1 {
 }
 
 body {
-    /* font-family: "Open Sans", "Helvetica", Arial, sans-serif; */
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -720,13 +718,11 @@ code {
 /* FOR BLOCKQUOTE TEXT - Leave `width` as auto because of board hover tooltip */
 blockquote {
     /* color:  #000000 !important; */
-    /* font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important; */
     color: #555555;
     font-size: 1.1em;
     width: auto;
     margin: 5px auto;
     font-style: italic;
-    font-family: "Open Sans", sans-serif;
     padding: 1.2em 30px 1.2em 75px !important;
     border-left: 8px solid rgb(168, 207, 255) !important;
     line-height: 1.6;
