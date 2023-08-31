@@ -31,7 +31,7 @@
     </a>
 </p>
 
-This pure CSS theme replaces the look and feel of the Kanboard user interface. For modern browsers using gradients and shades of blue and red, KanboardCSS refreshes the the user experience. A new animated notification icon easily identifies new messages without affecting browser performance. All tables and forms are restyled to save screen space and improve productivity. This theme works perfectly with other plugins.
+This pure CSS theme replaces the look and feel of the Kanboard user interface. For modern browsers using gradients and shades of blue and red, KanboardCSS refreshes the the user experience. A new animated notification icon easily identifies new messages without affecting browser performance. All tables and forms are restyled to save screen space and improve productivity. Install with FontSwitcher to give a complete new overhaul to your application.
 
 <p align="right">[<a href="#user-content-readme-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8594; Next</a>] [<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 
@@ -84,7 +84,7 @@ Refresh the page or restart your browser.
 - Requires [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software") ≥`1.2.20`
 - **Other Plugins & Action Plugins**
   - _No known issues_
-  - Compatible with [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard"), [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard"), [Glancer](https://github.com/aljawaid/Glancer "Glancer - A plugin for Kanboard"), [ColorManager](https://github.com/aljawaid/ColorManager "ColorManager - A plugin for Kanboard"), [ApplicationBranding](https://github.com/aljawaid/ApplicationBranding "ApplicationBranding - A plugin for Kanboard"), [TemplateManager](https://github.com/aljawaid/TemplateManager)
+  - Compatible with [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard"), [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard"), [Glancer](https://github.com/aljawaid/Glancer "Glancer - A plugin for Kanboard"), [ColorManager](https://github.com/aljawaid/ColorManager "ColorManager - A plugin for Kanboard"), [ApplicationBranding](https://github.com/aljawaid/ApplicationBranding "ApplicationBranding - A plugin for Kanboard"), [TemplateManager](https://github.com/aljawaid/TemplateManager), [FontSwitcher](https://github.com/aljawaid/FontSwitcher "FontSwitcher - A plugin for Kanboard")
 - **Core Files & Templates**
   - _No template overrides_
   - _No database changes_
