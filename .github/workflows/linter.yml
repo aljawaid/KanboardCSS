@@ -59,7 +59,7 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter/slim@v5
+        uses: github/super-linter/slim@v6
         # https://github.com/marketplace/actions/super-linter#environment-variables
         env:
           # Change to 'true' to scan all files, 'false' for new or edited files
