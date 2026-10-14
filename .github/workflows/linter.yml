@@ -29,7 +29,8 @@ jobs:
     # Name the Job
     name: Check Code
     # Set the agent to run on
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
 
     ############################################
     # Grant status permission for MULTI_STATUS #
@@ -47,8 +48,9 @@ jobs:
       # Checkout the code base #
       ##########################
       - name: Checkout Code
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          persist-credentials: false
           # Full git history is needed to get a proper
           # list of changed files within `super-linter`
           # We will set fetch-depth: 0 to fetch all history for all branches
@@ -59,7 +61,7 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter/slim@v7
+        uses: github/super-linter/slim@b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1 # v7
         # https://github.com/marketplace/actions/super-linter#environment-variables
         env:
           # Change to 'true' to scan all files, 'false' for new or edited files
