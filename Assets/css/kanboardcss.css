@@ -17,15 +17,15 @@
     --button-blue-border-gradient-match: #476E9E;
     --link-hover-red: #AE003D;
     --link-hover-white: #EEEEEE;
-    --background-hover: rgba(174, 0, 61, .5);
+    --background-hover: rgb(174, 0, 61, .5);
     --zf-green: #008F47;
     --zf-gold: #A2792C;
-    --zf-gold-box: rgba(162, 121, 44, .6);
+    --zf-gold-box: rgb(162, 121, 44, .6);
     --ll-green: #00843D;
-    --ll-green-box: rgba(0, 132, 61, .6);
+    --ll-green-box: rgb(0, 132, 61, .6);
     --ll-black: #141414;
-    --pp-blue-box: rgba(0, 122, 201, .6);
-    --all-yellow-box: rgba(223, 255, 0, .6);
+    --pp-blue-box: rgb(0, 122, 201, .6);
+    --all-yellow-box: rgb(223, 255, 0, .6);
     --header-page-margin-kbcss: 5px 15px 10px 15px;
     --box-shadow-kbcss: 1px 1px 1px 0 #000000;
     --border-radius-kbcss: 3px;
@@ -43,7 +43,7 @@
 .pp-green {color: #2EA02E;}
 .pp-background-white {background-color: #FFFFFF;}
 .pp-background-blue {background-color: #007AC9;}
-.pp-background-blend {background: linear-gradient(66deg,rgba(6, 123, 237, .61) 0%, rgba(226, 17, 17, .86) 70%, rgba(0, 0, 0, .8) 100%);}
+.pp-background-blend {background: linear-gradient(66deg,rgb(6, 123, 237, .61) 0%, rgb(226, 17, 17, .86) 70%, rgb(0, 0, 0, .8) 100%);}
 .pp-border-blue {border-color: #007AC9;}
 .pp-border-red-alt-2 {border-color: #AE003D!important;}
 .pp-btn-blue {color: white; background-color: #007AC9; border-color: #007AC9; transition: ease .7s;}
@@ -137,7 +137,7 @@ kbd {
 }
 
 .h2 {
-    color: rgba(175, 47, 47, .31);
+    color: rgb(175, 47, 47, .31);
     font-size: 22px;
     font-weight: 100;
     text-align: center;
@@ -329,7 +329,6 @@ ring - adapted from https://codepen.io/Mrshcom/pen/kNmBGm
     background:-moz-linear-gradient(top, #7892C2 5%, #476E9E 100%);
     background:-webkit-linear-gradient(top, #7892C2 5%, #476E9E 100%);
     background:-o-linear-gradient(top, #7892C2 5%, #476E9E 100%);
-    background:-ms-linear-gradient(top, #7892C2 5%, #476E9E 100%);
     background:linear-gradient(to bottom, #7892C2 5%, #476E9E 100%);
     background-color:#7892C2;
     padding: 10px 10px 15px 10px;
@@ -544,7 +543,7 @@ div.task-board-recent {
     border-left-width: 4px !important;
     background-color: white !important;
     border-radius: 2px;
-    box-shadow: 0 1px 2px rgba(186, 186, 186, .5);
+    box-shadow: 0 1px 2px rgb(186, 186, 186, .5);
     border-right: none;
     border-top: 1px solid #ECECEC !important;
     border-bottom: none;
@@ -597,10 +596,7 @@ div.task-board-recent {
     padding: 6px;
     background: var(--button-default-border-color-focus);
     border-radius: 2px;
-    border-bottom-left-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    border-top-right-radius: var(--border-radius-kbcss) !important;
-    border-top-left-radius: var(--border-radius-kbcss) !important;
+    border-radius: var(--border-radius-kbcss) var(--border-radius-kbcss) 0 0 !important;
 }
 
 .task-board-age {
@@ -652,7 +648,7 @@ th.board-swimlane-header {
     margin-bottom: 8px;
     margin-left: 8px;
     margin-right: 8px;
-    box-shadow:  0 1px 2px rgba(62, 54, 54, .55);
+    box-shadow:  0 1px 2px rgb(62, 54, 54, .55);
     border-right: none;
     border-top: 1px solid #ECECEC !important;
     border-bottom: none;
@@ -708,7 +704,7 @@ code {
     margin: auto 3px;
     padding: 1px 3px 3px 3px;
     color: #BB092D;
-    background-color: rgba(27, 31, 35, .32);
+    background-color: rgb(27, 31, 35, .32);
     font-size: .9rem;
     font-family: monospace;
     letter-spacing: .04rem;
@@ -1118,7 +1114,7 @@ table > tbody > tr > th:not(:first-child), table > tbody > tr > td:not(:first-ch
     border-block-style: outset;
     text-indent: .5em;
     border-block-start-color: rgb(174, 0, 61);
-    border-block-end-color: rgba(174, 0, 61, .5);
+    border-block-end-color: rgb(174, 0, 61, .5);
 }
 
 .table-list-row > div > .dropdown > a > strong {
@@ -1345,7 +1341,7 @@ select {
 }
 
 #TaskTagSummary {
-    background-color: rgba(255, 255, 255, .9);
+    background-color: rgb(255, 255, 255, .9);
     padding: .1em .4rem .3rem .4rem;
     border-radius: var(--border-radius-kbcss);
     margin-top: 1em;
@@ -1404,7 +1400,7 @@ header h1 .tooltip .fa-info-circle {
     max-width: 200px;
     float: right;
     text-align: right;
-    margin-top: 0 auto auto auto;
+    margin: 0 auto auto auto;
     border: 3px dashed #007AC9;
     border-radius: var(--border-radius-kbcss);
     vertical-align: bottom;
@@ -1459,7 +1455,7 @@ del {
 }
 
 td code {
-    word-wrap: anywhere;
+    overflow-wrap: anywhere;
     max-width: 597px;
     display: inline-block;
 }
@@ -2324,7 +2320,7 @@ span.cell-float-right {
 
 ::selection {
     /* background: rgba(113,113,113,.5); */
-    background: rgba(183, 18, 52, .63);
+    background: rgb(183, 18, 52, .63);
     color:#FFFFFF;
 }
 
