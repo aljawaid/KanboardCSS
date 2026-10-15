@@ -31,7 +31,7 @@
     </a>
 </p>
 
-This pure CSS theme replaces the look and feel of the Kanboard user interface. For modern browsers using gradients and shades of blue and red, KanboardCSS refreshes the the user experience. A new animated notification icon easily identifies new messages without affecting browser performance. All tables and forms are restyled to save screen space and improve productivity. Install with FontSwitcher to give a complete new overhaul to your application.
+This pure CSS theme replaces the look and feel of the Kanboard user interface. For modern browsers using gradients and shades of blue and red, KanboardCSS refreshes the user experience. A new animated notification icon easily identifies new messages. All tables and forms are restyled to save screen space and improve productivity. Install with FontSwitcher to give a complete new overhaul to your application.
 
 <p align="right">[<a href="#user-content-readme-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8594; Next</a>] [<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 
@@ -39,6 +39,8 @@ This pure CSS theme replaces the look and feel of the Kanboard user interface. F
 
 - Show current page indicator in dropdown menus
 - Animated notification icon for new messages
+- Light, dark, and automatic colour schemes using Kanboard's theme preference
+- Responsive controls and layouts for mobile and tablet screens
 - Custom CSS File to override the theme
 - The board is tweaked heavily. Similar to [GitLab's](https://gitlab.com "Go to GitLab") issueboard.
 - The whole interface is refreshed for an improved user experience.
@@ -61,13 +63,21 @@ _Screenshots are for illustrative purposes only and may show features from other
 
 Refresh the page or restart your browser.
 
+KanboardCSS follows the theme selected in your Kanboard user profile:
+
+- **Light** keeps the established KanboardCSS colour scheme.
+- **Dark** uses the additional dark colour scheme.
+- **Automatic** follows the operating system's light or dark preference.
+
+User declarations in `Assets/css/kanboardcss-custom.css` load after the main theme and can override either colour scheme.
+
 <p align="right">[<a href="#user-content-readme-bottom">&#8595; Bottom</a>] [<a href="#screenshots">&#8592; Previous</a>] [<a href="#authors--contributors">&#8594; Next</a>] [<a href="#user-content-readme-top">&#8593; Top</a>]</p>
 
 ## Installation & Compatibility
 
 <p align="left">
     <a href="https://github.com/aljawaid/KanboardCSS/actions/workflows/linter.yml">
-        <img src="https://github.com/aljawaid/KanboardCSS/actions/workflows/linter.yml/badge.svg?branch=master&event=push" alt="Code Scanning" title="View Test">
+        <img src="https://github.com/aljawaid/KanboardCSS/actions/workflows/linter.yml/badge.svg?branch=master&event=push" alt="Code quality" title="View test">
     </a>
 </p>
 
@@ -81,7 +91,8 @@ Refresh the page or restart your browser.
 <details>
     <summary><strong>Compatibility</strong></summary>
 
-- Requires [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software") ≥`1.2.20`
+- Requires [Kanboard](https://github.com/kanboard/kanboard "Kanboard - Kanban Project Management Software") ≥`1.2.54`
+- Tested with PHP `8.2`, `8.3`, `8.4`, and `8.5`
 - **Other Plugins & Action Plugins**
   - _No known issues_
   - Compatible with [Customizer](https://github.com/creecros/Customizer "Customizer - A plugin for Kanboard"), [Bak2TopBotm](https://github.com/creecros/Bak2topbotm "Bak2TopBotm - A plugin for Kanboard"), [Glancer](https://github.com/aljawaid/Glancer "Glancer - A plugin for Kanboard"), [ColorManager](https://github.com/aljawaid/ColorManager "ColorManager - A plugin for Kanboard"), [ApplicationBranding](https://github.com/aljawaid/ApplicationBranding "ApplicationBranding - A plugin for Kanboard"), [TemplateManager](https://github.com/aljawaid/TemplateManager), [FontSwitcher](https://github.com/aljawaid/FontSwitcher "FontSwitcher - A plugin for Kanboard")

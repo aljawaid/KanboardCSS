@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v3.7.0
+
+_(most recent changes are listed on top):_
+- NEW: Add Light, Dark, and Automatic Colour Scheme Support - closes #25
+- NEW: Add Responsive Mobile and Tablet Layouts
+- FIX: Keep Comment Actions Available on Mobile Screens
+- FIX: Reserve Red for Destructive and Urgent States
+- FIX: Load Custom CSS After the Main Theme
+- FIX: Restore Task Age, Assignee, and Priority Information
+- FIX: Preserve FontSwitcher Control of Task Title Fonts
+- FIX: Add Reduced-Motion and Forced-Colour Support
+- FIX: Correct Undefined CSS Custom Properties
+- FIX: Require and Test Kanboard 1.2.54 with PHP 8.2-8.5
+
+
 ## v3.6
 
 _(most recent changes are listed on top):_
