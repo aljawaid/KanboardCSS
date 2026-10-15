@@ -1,0 +1,70 @@
+---
+# Boots KanboardCSS against the supported Kanboard and PHP production matrix.
+name: PHP Compatibility
+
+on:
+  push:
+  pull_request:
+    branches: [master, main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: php-compatibility-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compatibility:
+    name: PHP ${{ matrix.php }}
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['8.2', '8.3', '8.4', '8.5']
+    env:
+      KANBOARD_VERSION: v1.2.54
+      APP_VERSION: 1.2.54
+      PLUGIN_NAME: KanboardCSS
+
+    steps:
+      - name: Checkout plugin
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: plugin
+          persist-credentials: false
+
+      - name: Checkout Kanboard
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: kanboard/kanboard
+          ref: ${{ env.KANBOARD_VERSION }}
+          path: kanboard
+          persist-credentials: false
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@4424c9aab975b57bd706ee5a39c6b4334d6e4f60 # 2.40.0
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: ctype, dom, filter, gd, json, mbstring, openssl, pdo_sqlite, session, simplexml, sqlite3, xml
+          coverage: none
+          tools: composer:v2
+
+      - name: Lint all PHP files
+        shell: bash
+        run: |
+          while IFS= read -r -d '' file; do
+            php -l "$file"
+          done < <(find plugin -type f -name '*.php' -print0)
+
+      - name: Install Kanboard dependencies
+        run: composer install --working-dir=kanboard --no-dev --no-interaction --prefer-dist --no-progress --optimize-autoloader
+
+      - name: Install plugin in Kanboard
+        shell: bash
+        run: |
+          mkdir -p kanboard/plugins
+          cp -R plugin "kanboard/plugins/$PLUGIN_NAME"
+
+      - name: Run focused compatibility checks
+        run: php -d error_reporting=E_ALL -d display_errors=1 plugin/tests/run.php kanboard

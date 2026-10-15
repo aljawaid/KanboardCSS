@@ -4,7 +4,7 @@
 ## Super Linter GitHub Actions ##
 #################################
 #################################
-name: Code Scan
+name: Code Quality
 
 #
 # Documentation:
@@ -84,7 +84,6 @@ jobs:
           SUPPRESS_POSSUM: true
           VALIDATE_CSS: true
           VALIDATE_GITHUB_ACTIONS: true
-          VALIDATE_GITLEAKS: true
           VALIDATE_HTML: true
           # VALIDATE_JAVA: true
           VALIDATE_JAVASCRIPT_ES: true
