@@ -1,6 +1,11 @@
 # Changelog
 
 
+## v3.7.1
+
+- FIX: Run CSS compatibility checks against both source and release Kanboard layouts
+
+
 ## v3.7.0
 
 _(most recent changes are listed on top):_

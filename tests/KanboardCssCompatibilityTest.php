@@ -11,7 +11,7 @@ $stylesheetPath = $pluginRoot . '/Assets/css/kanboardcss.css';
 $customStylesheetPath = $pluginRoot . '/Assets/css/kanboardcss-custom.css';
 $stylesheet = file_get_contents($stylesheetPath);
 
-kanboardCssAssertSame('3.7.0', $plugin->getPluginVersion(), 'The plugin version must match the production release being prepared.');
+kanboardCssAssertSame('3.7.1', $plugin->getPluginVersion(), 'The plugin version must match the production release being prepared.');
 kanboardCssAssertSame('>=1.2.54', $plugin->getCompatibleVersion(), 'Compatibility must not advertise an untested Kanboard release.');
 kanboardCssAssertTrue(is_file($stylesheetPath), 'The main stylesheet must exist.');
 kanboardCssAssertTrue(is_file($customStylesheetPath), 'The user override stylesheet must exist.');
@@ -39,13 +39,22 @@ kanboardCssAssertFalse((bool) preg_match('/@media[^}]+max-width:\s*500px[^}]*}.*
 $declaredVariables = array();
 $referencedVariables = array();
 $coreCss = '';
-$coreCssIterator = new RecursiveIteratorIterator(
-    new RecursiveDirectoryIterator($kanboardRoot . '/assets/css/src', FilesystemIterator::SKIP_DOTS)
-);
+$coreCssSourceDirectory = $kanboardRoot . '/assets/css/src';
 
-foreach ($coreCssIterator as $coreCssFile) {
-    if ($coreCssFile->isFile() && $coreCssFile->getExtension() === 'css') {
-        $coreCss .= file_get_contents($coreCssFile->getPathname());
+if (is_dir($coreCssSourceDirectory)) {
+    $coreCssIterator = new RecursiveIteratorIterator(
+        new RecursiveDirectoryIterator($coreCssSourceDirectory, FilesystemIterator::SKIP_DOTS)
+    );
+
+    foreach ($coreCssIterator as $coreCssFile) {
+        if ($coreCssFile->isFile() && $coreCssFile->getExtension() === 'css') {
+            $coreCss .= file_get_contents($coreCssFile->getPathname());
+        }
+    }
+} else {
+    // Official Kanboard release archives contain compiled stylesheets instead of the development source tree.
+    foreach (glob($kanboardRoot . '/assets/css/*.css') as $coreCssFile) {
+        $coreCss .= file_get_contents($coreCssFile);
     }
 }
 
