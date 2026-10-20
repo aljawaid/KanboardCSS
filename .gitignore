@@ -1,1 +1,19 @@
+# Local editor and operating-system state
 *.sublime-workspace
+.idea/
+.vscode/
+*.swp
+.*.swp
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local test and temporary output
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+*.log
+*.tmp
+*.bak
