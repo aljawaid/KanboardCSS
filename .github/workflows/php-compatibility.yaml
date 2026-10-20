@@ -18,6 +18,7 @@ jobs:
   compatibility:
     name: PHP ${{ matrix.php }}
     runs-on: ubuntu-24.04
+    timeout-minutes: 15
     strategy:
       fail-fast: false
       matrix:

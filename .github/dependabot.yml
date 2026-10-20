@@ -10,7 +10,7 @@ updates:
       # Check for updates to GitHub Actions every week
       interval: "weekly"
       time: "09:00"
-      # Use Greenwich Mean Time (UTC +01:00)
+      # Use Europe/London local time, including daylight-saving changes
       timezone: "Europe/London"
     # Add assignees
     assignees:
