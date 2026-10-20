@@ -11,7 +11,7 @@ $stylesheetPath = $pluginRoot . '/Assets/css/kanboardcss.css';
 $customStylesheetPath = $pluginRoot . '/Assets/css/kanboardcss-custom.css';
 $stylesheet = file_get_contents($stylesheetPath);
 
-kanboardCssAssertSame('3.7.1', $plugin->getPluginVersion(), 'The plugin version must match the production release being prepared.');
+kanboardCssAssertSame('3.7.2', $plugin->getPluginVersion(), 'The plugin version must match the production release being prepared.');
 kanboardCssAssertSame('>=1.2.54', $plugin->getCompatibleVersion(), 'Compatibility must not advertise an untested Kanboard release.');
 kanboardCssAssertTrue(is_file($stylesheetPath), 'The main stylesheet must exist.');
 kanboardCssAssertTrue(is_file($customStylesheetPath), 'The user override stylesheet must exist.');
