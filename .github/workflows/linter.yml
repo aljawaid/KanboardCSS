@@ -61,7 +61,7 @@ jobs:
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
-        uses: github/super-linter/slim@b807e99ddd37e444d189cfd2c2ca1274d8ae8ef1 # v7
+        uses: super-linter/super-linter/slim@2da136927bd4a73596db63044b504547c62cb854 # v9.0.0
         # https://github.com/marketplace/actions/super-linter#environment-variables
         env:
           # Change to 'true' to scan all files, 'false' for new or edited files
@@ -69,7 +69,7 @@ jobs:
           # Change to 'master' if your main branch differs
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CSS_FILE_NAME: .stylelintrc.json
+          CSS_FILE_NAME: stylelint.config.mjs
           LINTER_RULES_PATH: .github/linters
           MARKDOWN_CONFIG_FILE: .markdownlint.json
           PHP_CONFIG_FILE: php.ini
@@ -86,8 +86,6 @@ jobs:
           VALIDATE_GITHUB_ACTIONS: true
           VALIDATE_HTML: true
           # VALIDATE_JAVA: true
-          VALIDATE_JAVASCRIPT_ES: true
-          VALIDATE_JAVASCRIPT_STANDARD: true
           VALIDATE_JSON: true
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
